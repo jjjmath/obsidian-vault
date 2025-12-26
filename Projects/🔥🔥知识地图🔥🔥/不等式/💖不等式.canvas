@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"5ecedb5c571f9a71","type":"text","text":"不等式","x":-125,"y":-40,"width":125,"height":70,"color":"1"},
+		{"id":"e49e5413d2c02d84","type":"text","text":"不等式的性质","x":-187,"y":100,"width":250,"height":60,"color":"2"},
+		{"id":"7a10ba0bdc6e132d","type":"text","text":"基本不等式","x":100,"y":-20,"width":180,"height":50,"color":"2"},
+		{"id":"a9de21307bbd28aa","type":"text","text":"[[💖基本不等式]]","x":240,"y":70,"width":250,"height":60},
+		{"id":"254fb9fc72f3ac25","type":"text","text":"[[💖一元二次不等式和简单高次不等式]]","x":-800,"y":-80,"width":250,"height":180},
+		{"id":"cfaa8ccc821afca3","type":"text","text":"**不等式的应用（超级广泛）**","x":-247,"y":-260,"width":347,"height":80,"color":"2"},
+		{"id":"e0c046bba8717014","type":"text","text":"[[💖比较大小的方法]]","x":-215,"y":280,"width":315,"height":60,"color":"4"},
+		{"id":"9fe4b4bb2193b6da","type":"text","text":"一元二次不等式","x":-465,"y":-55,"width":250,"height":60,"color":"2"}
+	],
+	"edges":[
+		{"id":"9249af97f1dc12c0","fromNode":"5ecedb5c571f9a71","fromSide":"bottom","toNode":"e49e5413d2c02d84","toSide":"top"},
+		{"id":"75bf2009b8961614","fromNode":"5ecedb5c571f9a71","fromSide":"right","toNode":"7a10ba0bdc6e132d","toSide":"left"},
+		{"id":"0621a60e20d7db49","fromNode":"5ecedb5c571f9a71","fromSide":"left","toNode":"9fe4b4bb2193b6da","toSide":"right"},
+		{"id":"42c3ec727503ec2b","fromNode":"5ecedb5c571f9a71","fromSide":"top","toNode":"cfaa8ccc821afca3","toSide":"bottom"},
+		{"id":"dc7c6e046b3ba540","fromNode":"e49e5413d2c02d84","fromSide":"bottom","toNode":"e0c046bba8717014","toSide":"top"},
+		{"id":"dd851cf187a40187","fromNode":"9fe4b4bb2193b6da","fromSide":"left","toNode":"254fb9fc72f3ac25","toSide":"right"},
+		{"id":"13e850df5cc1b007","fromNode":"7a10ba0bdc6e132d","fromSide":"right","toNode":"a9de21307bbd28aa","toSide":"top"}
+	]
+}

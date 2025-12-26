@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"c770957604cd6451","type":"text","text":"全程量词与存在量词","x":140,"y":-140,"width":325,"height":60,"color":"2"},
+		{"id":"9af4ef993a86376a","type":"text","text":"命题与逻辑关系","x":-200,"y":-140,"width":250,"height":60,"color":"1"},
+		{"id":"ebc8afd1ab23d547","type":"text","text":"恒成立与有解问题","x":-180,"y":-400,"width":250,"height":140,"color":"2"},
+		{"id":"4751401267eb6a33","x":-180,"y":-560,"width":250,"height":90,"type":"text","text":"[[💖恒成立与有解的理解]]"},
+		{"id":"7e1bdbbc758de001","x":-240,"y":160,"width":250,"height":60,"type":"text","text":"[[💖充要条件]]"},
+		{"id":"c9faff774a85241e","type":"text","text":"充要条件","x":-180,"y":0,"width":165,"height":80,"color":"2"},
+		{"id":"c5cb1c633dbd53cd","type":"text","text":"命题的否定","x":-580,"y":-140,"width":250,"height":60,"color":"2"}
+	],
+	"edges":[
+		{"id":"27cb746ff1fead75","fromNode":"9af4ef993a86376a","fromSide":"bottom","toNode":"c9faff774a85241e","toSide":"top"},
+		{"id":"ae349d52f6d6c7b1","fromNode":"9af4ef993a86376a","fromSide":"right","toNode":"c770957604cd6451","toSide":"left"},
+		{"id":"093ed81c67e65bc6","fromNode":"c5cb1c633dbd53cd","fromSide":"right","toNode":"9af4ef993a86376a","toSide":"left"},
+		{"id":"27063c7e875bc318","fromNode":"9af4ef993a86376a","fromSide":"top","toNode":"ebc8afd1ab23d547","toSide":"bottom"},
+		{"id":"8d022795673e0624","fromNode":"ebc8afd1ab23d547","fromSide":"top","toNode":"4751401267eb6a33","toSide":"bottom"},
+		{"id":"6552fe1013088f83","fromNode":"c9faff774a85241e","fromSide":"bottom","toNode":"7e1bdbbc758de001","toSide":"top"}
+	]
+}

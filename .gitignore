@@ -1,19 +1,51 @@
-# Obsidian自动生成的文件
-.obsidian/workspace*
+# ========== Obsidian 配置 ==========
+# 缓存和工作区文件（个人工作状态）
+.obsidian/workspace
 .obsidian/workspace-mobile
+.obsidian/workspace.json
 .obsidian/graph.json
-.obsidian/trash/
 
-# 系统文件
+# 核心配置文件（包含个人设置）
+.obsidian/core-plugins.json
+.obsidian/core-plugins-migration.json
+.obsidian/app.json
+.obsidian/appearance.json
+.obsidian/community-plugins.json
+
+# 插件数据（包含API密钥等敏感信息）
+.obsidian/plugins/obsidian-git/data.json
+.obsidian/plugins/*/data.json
+.obsidian/plugins/dataview/data.json
+.obsidian/plugins/templater/data.json
+
+# ========== 临时文件 ==========
+.trash/
+*.tmp
+*.log
+*.cache
+.cache/
+
+# ========== 系统文件 ==========
 .DS_Store
 Thumbs.db
 desktop.ini
-
-# 临时文件
-*.tmp
 *.swp
-*.lock
+*.swo
 
-# 备份文件
-*.bak
-*.backup
+# ========== 大文件/二进制文件 ==========
+*.pdf
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.mp3
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# ========== 测试/临时文件 ==========
+测试.md
+新建文本文档.txt
+temp/
+test/
