@@ -30,7 +30,7 @@ Notes are interconnected using **bidirectional links**, allowing nonlinear explo
 
 Personal use permitted. Commercial use prohibited without authorization.
 
-All rights reserved © {{date:YYYY}}.
+All rights reserved © 2025-12.
 
 ---
 
