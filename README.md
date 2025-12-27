@@ -61,7 +61,7 @@ If you wish to use any of the content herein, please contact:
 
 如果你希望使用其中的内容，请联系：
 - [xu_hongjie@sina.com[
-- [你的社交媒体/网站]
+- [(https://github.com/jjjmath/obsidian-vault)]
 
 ---
 *最后更新：[2025年-12月-27日]*
