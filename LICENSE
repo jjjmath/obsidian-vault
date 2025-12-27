@@ -1,13 +1,19 @@
+# Obsidian Knowledge Base Usage License Statement
+**Combining MIT License with Personal Knowledge Base Protection**
+
+## 📄 Dual License Declaration
+
+### Option 1: MIT License (Applies Only to Code Portions)
+```plaintext
 MIT License
 
-Copyright (c) 2025 许宏杰
+Copyright (c) 2025 Xu Hongjie
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+copies of the Software, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
@@ -19,3 +25,62 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+```
+
+### Option 2: Personal Knowledge Base Content Protection
+
+## 🛡️ Knowledge Base Content Usage Restrictions
+
+**The following content does NOT fall under the MIT License and is strictly protected:**
+
+### ❌ Prohibited Actions (Regarding Note Content):
+1. **Copying & Distribution**: Unauthorized copying or distribution of note content from this knowledge base
+2. **Commercial Use**: Not to be used for commercial purposes or profit-making activities
+3. **Public Sharing**: Not to be publicly disseminated on the internet, social media, or paid communities
+4. **Claiming Originality**: Not to be modified and published under your own name
+5. **Translation & Publication**: Not to be translated into other languages and published
+
+### ✅ Permitted Actions:
+- Personal learning and reference
+- Non-commercial research
+- Quoting excerpts (must be properly attributed with prior communication)
+
+## 📁 Scope of Application
+
+| Content Type | Applicable License | Notes |
+|-------------|-------------------|-------|
+| Plugin code, Theme CSS | MIT License | Free to use and modify |
+| Template syntax, Workflows | MIT License | Free to use and modify |
+| Personal notes, Diaries, Thoughts | Strictly Protected | Unauthorized use prohibited |
+| Compiled excerpts, Reference materials | Strictly Protected | Unauthorized use prohibited |
+| Original articles, Research | Strictly Protected | Copyright owned by author |
+
+## © Copyright Information
+
+**Software Portions** (Code, Configuration):
+- License: MIT License
+- Free to use, copyright notice must be retained
+
+**Content Portions** (Notes, Text):
+- Copyright © 2025 Xu Hongjie
+- All Rights Reserved
+- Protected under the *Copyright Law of the People's Republic of China*
+
+## 📧 Contact & Authorization
+
+To use protected content:
+- **Email**: xu_hongjie@sina.com
+- **Requirements**: Please describe in detail the purpose, scope, and duration of use
+
+## ⚖️ Legal Notice
+
+1. This knowledge base adopts a dual-license model
+2. Code portions are subject to MIT License
+3. Content portions are protected under copyright law
+4. Any infringement will be pursued according to law
+
+---
+**Last Updated**: December 27, 2025  
+**Effective Date**: Immediately  
+
+---
