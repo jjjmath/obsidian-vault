@@ -1,37 +1,33 @@
-# High School Mathematics Notes
+# [Obsidian知识库[
 
-A structured collection of high school mathematics knowledge built with Obsidian, covering algebra, functions, geometry, trigonometry, inequalities, and pre-calculus essentials.
+**这是个人私有知识库，内容受版权保护**
 
-## 📌 Purpose & Usage
+## 🛡️ 重要声明
 
-- **Primary Purpose**: Personal learning, review, and knowledge organization.
-- **Usage Rights**: Free for personal/educational use.  
-- **Commercial Use**: Requires explicit prior written permission from the author. Contact for licensing inquiries.
+本知识库中的全部内容：
+- 均为个人学习、思考、创作的成果
+- 受《中华人民共和国著作权法》保护
+- 未经授权不得复制、传播、商用
 
-## 🗂️ Core Content Structure
+## 📜 使用条款
 
-- **Algebra**: Polynomials, equations, inequalities
-- **Functions**: Properties, graphs, transformations
-- **Geometry**: Plane & coordinate geometry
-- **Trigonometry**: Identities, equations, applications  
-- **Problem Solving**: Methods, example solutions, common pitfalls
+如果你通过任何途径获得了本知识库的副本：
 
-## 🚀 Quick Start
+1. **仅可个人学习参考**
+2. **不得公开传播**
+3. **不得用于商业目的**
+4. **不得声称原创**
 
-1. Install [Obsidian](https://obsidian.md)
-2. Clone this repository or download as ZIP
-3. Open folder in Obsidian as a vault
+## © 版权信息
 
-## 🔗 Connections & Workflow
+版权所有 © [2025] [许宏杰[
+保留所有权利
 
-Notes are interconnected using **bidirectional links**, allowing nonlinear exploration of related concepts. The **graph view** provides a visual map of knowledge relationships.
+## 📧 授权申请
 
-## ©️ License
-
-Personal use permitted. Commercial use prohibited without authorization.
-
-All rights reserved © 2025-12.
+如果你希望使用其中的内容，请联系：
+- [xu_hongjie@sina.com[
+- [你的社交媒体/网站]
 
 ---
-
-*This repository focuses on conceptual understanding through interconnected notes rather than isolated facts.*
+*最后更新：[2025年-12月-27日]*
