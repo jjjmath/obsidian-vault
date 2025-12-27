@@ -1,4 +1,38 @@
-# [Obsidian知识库[
+# [Obsidian Knowledge Base]
+
+**This is a personal private knowledge base, and all content is copyright protected.**
+
+## 🛡️ Important Notice
+
+All content within this knowledge base:
+- Represents the outcomes of personal learning, thinking, and creation
+- Is protected under the *Copyright Law of the People's Republic of China*
+- Shall not be copied, distributed, or used for commercial purposes without authorization
+
+## 📜 Terms of Use
+
+If you have obtained a copy of this knowledge base through any means:
+
+1. **For personal learning and reference only**
+2. **Shall not be publicly distributed**
+3. **Shall not be used for commercial purposes**
+4. **Shall not be claimed as original work**
+
+## © Copyright Information
+
+Copyright © [2025] [Xu Hongjie]
+All rights reserved
+
+## 📧 Authorization Requests
+
+If you wish to use any of the content herein, please contact:
+- [xu_hongjie@sina.com]
+- [Your Social Media/Website]
+
+---
+*Last updated: [December 27, 2025]*
+
+# [Obsidian知识库]
 
 **这是个人私有知识库，内容受版权保护**
 
