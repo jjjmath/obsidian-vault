@@ -25,22 +25,23 @@
 		{"id":"797ae2063a9a8001","type":"text","text":"[[3.三角函数的单调性和最值]]","x":-1326,"y":195,"width":382,"height":50},
 		{"id":"cff273337c7f156a","type":"text","text":"[[函数的周期性]]","x":-1260,"y":-30,"width":250,"height":60},
 		{"id":"528d357eae0ba499","type":"text","text":"[[2.三角函数的周期性和对称性]]","x":-1392,"y":-207,"width":382,"height":50},
-		{"id":"eb4462303d2981b0","type":"text","text":"[[4.💖三角函数图像性质综合应用]]","x":-797,"y":-720,"width":250,"height":160},
 		{"id":"d8d322b58b65ea88","type":"text","text":"[[同角三角基本关系2]]","x":252,"y":-585,"width":298,"height":50,"color":"5"},
 		{"id":"045efda457d93b48","type":"text","text":"[[同角的三角基本关系式1]]","x":234,"y":-450,"width":335,"height":60,"color":"5"},
 		{"id":"4da3b23f482db9ed","type":"text","text":"二倍角公式","x":-135,"y":-525,"width":190,"height":60,"color":"4"},
 		{"id":"05791d9b980b08fb","type":"text","text":"[[2.两角和与差的正弦、余弦公式]]","x":-465,"y":-495,"width":250,"height":90},
 		{"id":"c0d20d63824ca363","type":"text","text":"[[1.两角差的余弦]]","x":-432,"y":-330,"width":250,"height":60},
-		{"id":"27e719558916e002","type":"text","text":"[[3.两角和与差的正切]]","x":-672,"y":-839,"width":325,"height":89},
 		{"id":"a0847b1bdc70bbd0","type":"text","text":"[[4.二倍角公式（1）]]","x":-285,"y":-810,"width":285,"height":60},
-		{"id":"bd2a0cdc81c04bdb","type":"text","text":"[[💖降幂公式]]","x":-274,"y":-979,"width":250,"height":60},
-		{"id":"c0ae7b3a9a08b9e4","type":"text","text":"[[💖和差化积与积化和差]]","x":-651,"y":-1080,"width":344,"height":51},
 		{"id":"15e984a38c03ed3c","type":"text","text":"[[💖💖💖恒等变换]]","x":110,"y":-1240,"width":250,"height":50},
-		{"id":"bb2532f715663c5c","x":360,"y":-1009,"width":250,"height":60,"type":"text","text":"[[2.恒等变换（二）]]"},
-		{"id":"86738082c41dd6ba","x":65,"y":-1054,"width":329,"height":50,"type":"text","text":"[[1.恒等变换（一）]]"},
-		{"id":"f637029cb715c24e","type":"text","text":"$\\color{red}恒等变换$","x":48,"y":-750,"width":250,"height":60,"color":"6"},
-		{"id":"3002340d03fbe74c","x":790,"y":-750,"width":401,"height":50,"type":"text","text":"[[💖三角形中的角常用关系]]"},
-		{"id":"a857c36287fb9ab3","type":"text","text":"[[1.三角函数的图像和性质]]","x":830,"y":-170,"width":320,"height":55}
+		{"id":"bb2532f715663c5c","type":"text","text":"[[2.恒等变换（二）]]","x":360,"y":-1009,"width":250,"height":60},
+		{"id":"86738082c41dd6ba","type":"text","text":"[[1.恒等变换（一）]]","x":65,"y":-1054,"width":329,"height":50},
+		{"id":"3002340d03fbe74c","type":"text","text":"[[💖三角形中的角常用关系]]","x":790,"y":-750,"width":401,"height":50},
+		{"id":"a857c36287fb9ab3","type":"text","text":"[[1.三角函数的图像和性质]]","x":830,"y":-170,"width":320,"height":55},
+		{"id":"eb4462303d2981b0","type":"text","text":"[[4.💖三角函数图像性质综合应用]]","x":-1260,"y":-640,"width":463,"height":80},
+		{"id":"f637029cb715c24e","type":"text","text":"$\\color{red}恒等变换$","x":173,"y":-725,"width":250,"height":60,"color":"6"},
+		{"id":"c0ae7b3a9a08b9e4","type":"text","text":"[[💖和差化积与积化和差]]","x":-1109,"y":-1241,"width":344,"height":51},
+		{"id":"27e719558916e002","type":"text","text":"[[3.两角和与差的正切]]","x":-700,"y":-933,"width":325,"height":89},
+		{"id":"bd2a0cdc81c04bdb","type":"text","text":"[[💖降幂公式]]","x":-290,"y":-993,"width":250,"height":60},
+		{"id":"641782d649c22e91","x":-250,"y":-894,"width":289,"height":50,"type":"text","text":"[[5.二倍角公式(2)]]"}
 	],
 	"edges":[
 		{"id":"4d97ad3a1ed86c3d","fromNode":"0ba62fb0e36c5cd9","fromSide":"bottom","toNode":"7eb44a1606382a58","toSide":"top"},
@@ -96,6 +97,8 @@
 		{"id":"1cf5329fb7a607fd","fromNode":"05791d9b980b08fb","fromSide":"top","toNode":"15e984a38c03ed3c","toSide":"bottom"},
 		{"id":"a9f8fa817b79c619","fromNode":"27e719558916e002","fromSide":"top","toNode":"15e984a38c03ed3c","toSide":"bottom"},
 		{"id":"d0dd0bdbfd9f851e","fromNode":"1bda65a49618d8e8","fromSide":"right","toNode":"3002340d03fbe74c","toSide":"bottom"},
-		{"id":"682695a86989d203","fromNode":"f637029cb715c24e","fromSide":"right","toNode":"3002340d03fbe74c","toSide":"left"}
+		{"id":"682695a86989d203","fromNode":"f637029cb715c24e","fromSide":"right","toNode":"3002340d03fbe74c","toSide":"left"},
+		{"id":"e181cfbf1b0a1cbf","fromNode":"4da3b23f482db9ed","fromSide":"top","toNode":"641782d649c22e91","toSide":"bottom"},
+		{"id":"458d99da7588f353","fromNode":"641782d649c22e91","fromSide":"top","toNode":"15e984a38c03ed3c","toSide":"bottom"}
 	]
 }
