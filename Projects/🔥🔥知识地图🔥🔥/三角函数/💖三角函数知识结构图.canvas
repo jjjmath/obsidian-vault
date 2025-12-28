@@ -8,7 +8,6 @@
 		{"id":"1bda65a49618d8e8","type":"text","text":"诱导公式","x":195,"y":80,"width":165,"height":60,"color":"4"},
 		{"id":"78cec99808ce38fe","type":"text","text":"三角函数的性质","x":-500,"y":-60,"width":250,"height":60,"color":"2"},
 		{"id":"ca72bd06cf8ca774","type":"text","text":"两角和与差的三角公式","x":-231,"y":-200,"width":307,"height":60,"color":"2"},
-		{"id":"5ae6ab0aa7e602b8","type":"text","text":"[[💖三角函数定义补充]]","x":320,"y":250,"width":319,"height":70},
 		{"id":"f36573969e2d8277","type":"text","text":"$\\sin x,\\cos x,\\tan x$","x":383,"y":-30,"width":250,"height":60,"color":"4"},
 		{"id":"d3ab28a31cea9172","type":"text","text":"图像变换","x":467,"y":-360,"width":165,"height":60,"color":"5"},
 		{"id":"9b636a93d0bfa5d9","type":"text","text":"三角函数图像","x":389,"y":-180,"width":250,"height":60,"color":"4"},
@@ -41,7 +40,8 @@
 		{"id":"c0ae7b3a9a08b9e4","type":"text","text":"[[💖和差化积与积化和差]]","x":-1109,"y":-1241,"width":344,"height":51},
 		{"id":"27e719558916e002","type":"text","text":"[[3.两角和与差的正切]]","x":-700,"y":-933,"width":325,"height":89},
 		{"id":"bd2a0cdc81c04bdb","type":"text","text":"[[💖降幂公式]]","x":-290,"y":-993,"width":250,"height":60},
-		{"id":"641782d649c22e91","x":-250,"y":-894,"width":289,"height":50,"type":"text","text":"[[5.二倍角公式(2)]]"}
+		{"id":"641782d649c22e91","x":-250,"y":-894,"width":289,"height":50,"type":"text","text":"[[5.二倍角公式(2)]]"},
+		{"id":"5ae6ab0aa7e602b8","type":"text","text":"[[💖三角函数定义补充]]","x":438,"y":425,"width":319,"height":70}
 	],
 	"edges":[
 		{"id":"4d97ad3a1ed86c3d","fromNode":"0ba62fb0e36c5cd9","fromSide":"bottom","toNode":"7eb44a1606382a58","toSide":"top"},
