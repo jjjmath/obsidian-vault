@@ -60,7 +60,7 @@ If you wish to use any of the content herein, please contact:
 ## 📧 授权申请
 
 如果你希望使用其中的内容，请联系：
-- [xu_hongjie@sina.com[
+- [xu_hongjie@sina.com]
 - [(https://github.com/jjjmath/obsidian-vault)]
 
 ---
