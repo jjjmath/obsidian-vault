@@ -45,7 +45,8 @@
 		{"id":"4c535577d70ce21e","type":"text","text":"[[💖对数概念及运算法则]]","x":-825,"y":720,"width":335,"height":60},
 		{"id":"c8897f2e01300cfa","type":"text","text":"[[函数/对数函数/💖对数函数]]","x":-947,"y":515,"width":250,"height":90},
 		{"id":"a3fc966ade8e424a","type":"text","text":"[[💖对数运算高端]]","x":-1246,"y":630,"width":250,"height":60},
-		{"id":"5fe7ca95cf0279c5","type":"text","text":"[[💖三角函数知识结构图.canvas|💖三角函数知识结构图]]","x":-335,"y":-1000,"width":250,"height":143,"color":"2"}
+		{"id":"5fe7ca95cf0279c5","type":"text","text":"[[💖三角函数知识结构图.canvas|💖三角函数知识结构图]]","x":-335,"y":-1000,"width":250,"height":143,"color":"2"},
+		{"id":"cb516402c54296a9","x":665,"y":-144,"width":316,"height":50,"type":"text","text":"[[💖零点综合问题]]"}
 	],
 	"edges":[
 		{"id":"cf9c20c03ada30ed","fromNode":"4b23bcece7cace7e","fromSide":"left","toNode":"9813348e6b766aa3","toSide":"right"},
@@ -92,6 +93,7 @@
 		{"id":"e24fa77a39fc9b43","fromNode":"853603710092dbbc","fromSide":"left","toNode":"704d95b9ab3b5e16","toSide":"right"},
 		{"id":"52c62700f561e199","fromNode":"9813348e6b766aa3","fromSide":"left","toNode":"21346490b09e7061","toSide":"right"},
 		{"id":"469c0cf5a406abf0","fromNode":"02cf56483309416a","fromSide":"bottom","toNode":"40659e9e086270f3","toSide":"top"},
-		{"id":"752be82637ee52a6","fromNode":"4b23bcece7cace7e","fromSide":"top","toNode":"5fe7ca95cf0279c5","toSide":"bottom"}
+		{"id":"752be82637ee52a6","fromNode":"4b23bcece7cace7e","fromSide":"top","toNode":"5fe7ca95cf0279c5","toSide":"bottom"},
+		{"id":"6643c923e9656f35","fromNode":"c5fd5dfe0b3237b8","fromSide":"right","toNode":"cb516402c54296a9","toSide":"left"}
 	]
 }
