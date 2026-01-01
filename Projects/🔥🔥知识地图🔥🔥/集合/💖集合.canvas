@@ -16,13 +16,14 @@
 		{"id":"97877d2b5ced88f1","type":"text","text":"互异性","x":-705,"y":20,"width":185,"height":60,"color":"4"},
 		{"id":"3edf8afed0766649","type":"text","text":"元素的性质","x":-462,"y":-90,"width":200,"height":60,"color":"2"},
 		{"id":"9c5da3bee17aa10a","type":"text","text":"**$\\color{red}易错点$**","x":-252,"y":200,"width":250,"height":60,"color":"2"},
-		{"id":"dc42b5b349453d31","type":"text","text":"$\\varnothing$[[链接]]","x":-520,"y":380,"width":199,"height":60,"color":"#f00a0a"},
-		{"id":"3a340fd490765552","type":"text","text":"系数等于0","x":-262,"y":380,"width":177,"height":60,"color":"#f00a0a"},
-		{"id":"8ffb3effbb962522","type":"text","text":"互异性","x":-65,"y":380,"width":145,"height":60,"color":"#f00a0a"},
+		{"id":"dc42b5b349453d31","type":"text","text":"$\\varnothing$","x":-520,"y":380,"width":199,"height":60,"color":"#f00a0a"},
+		{"id":"3a340fd490765552","type":"text","text":"系数等于0","x":-262,"y":380,"width":197,"height":60,"color":"#f00a0a"},
 		{"id":"04e2ffcf45b241c0","type":"text","text":"集合的表示方法","x":40,"y":-70,"width":250,"height":60,"color":"2"},
 		{"id":"00ade4f627aeabb9","type":"text","text":"[[💖集合的运算]]","x":-242,"y":-480,"width":250,"height":60},
-		{"id":"576c4e464b0ce7bd","x":165,"y":260,"width":315,"height":60,"type":"text","text":"[[💖集合间的关系]]"},
-		{"id":"a001f8473ce8568f","x":323,"y":-395,"width":315,"height":70,"type":"text","text":"[[💖集合的基本概念]]"}
+		{"id":"576c4e464b0ce7bd","type":"text","text":"[[💖集合间的关系]]","x":165,"y":260,"width":315,"height":60},
+		{"id":"a001f8473ce8568f","type":"text","text":"[[💖集合的基本概念]]","x":323,"y":-395,"width":315,"height":70},
+		{"id":"8ffb3effbb962522","type":"text","text":"互异性","x":20,"y":380,"width":145,"height":60,"color":"#f00a0a"},
+		{"id":"a674519a64d2c10f","x":-571,"y":560,"width":250,"height":60,"type":"text","text":"[[13.集合问题]]"}
 	],
 	"edges":[
 		{"id":"d14afd30ebaf5e23","fromNode":"4adf71c212e53896","fromSide":"bottom","toNode":"d32622fd55790640","toSide":"top"},
@@ -47,6 +48,7 @@
 		{"id":"297ae56c2d78b5d3","fromNode":"8a332cc73a82a65c","fromSide":"top","toNode":"00ade4f627aeabb9","toSide":"bottom"},
 		{"id":"ea30ad67a97fe5ac","fromNode":"e42eca71f618ef3a","fromSide":"bottom","toNode":"576c4e464b0ce7bd","toSide":"top"},
 		{"id":"509760d4c51b6c6a","fromNode":"04e2ffcf45b241c0","fromSide":"top","toNode":"a001f8473ce8568f","toSide":"bottom"},
-		{"id":"d0253228bd762e3c","fromNode":"284ab1186c6e6da7","fromSide":"right","toNode":"a001f8473ce8568f","toSide":"left"}
+		{"id":"d0253228bd762e3c","fromNode":"284ab1186c6e6da7","fromSide":"right","toNode":"a001f8473ce8568f","toSide":"left"},
+		{"id":"f9be499e49f6aedb","fromNode":"dc42b5b349453d31","fromSide":"bottom","toNode":"a674519a64d2c10f","toSide":"top"}
 	]
 }
