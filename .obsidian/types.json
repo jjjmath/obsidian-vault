@@ -3,6 +3,8 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "日期": "date"
+    "日期": "date",
+    "版权": "text",
+    "创建": "multitext"
   }
 }
