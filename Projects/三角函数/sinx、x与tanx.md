@@ -12,6 +12,7 @@
 
 ![[sinxxtanx.excalidraw]]
 
-
-
+>[!tip] 利用几何关系
+>$AB<CB$
+>$S_{扇形BOC}<S_{\triangle COD}\Rightarrow \frac{1}{2}x\cdot1<\frac{1}{2}CD\cdot1\Rightarrow CB<CD$
 
