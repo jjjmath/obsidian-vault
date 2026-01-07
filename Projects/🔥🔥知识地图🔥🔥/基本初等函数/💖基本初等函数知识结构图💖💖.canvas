@@ -28,7 +28,6 @@
 		{"id":"ffd63b24162f5ae7","type":"text","text":"$y=\\frac{a^x-1}{a^x+1}$[[链接]]","x":-42,"y":-332,"width":254,"height":50,"color":"2"},
 		{"id":"10879350b0ad18d6","type":"text","text":"$y=\\log_a(\\frac{1+x}{1-x})$[[链接]]","x":124,"y":-575,"width":251,"height":70,"color":"2"},
 		{"id":"5118b4de5f6fffbc","type":"text","text":"[[💖对勾函数]]","x":-400,"y":-575,"width":190,"height":50,"color":"2"},
-		{"id":"5379381124fbf801","type":"text","text":"[[💖飘带函数]]","x":-700,"y":-590,"width":211,"height":50,"color":"2"},
 		{"id":"2000999ffd19f4d8","type":"text","text":"[[💖分式型函数]]","x":-622,"y":-763,"width":268,"height":83,"color":"2"},
 		{"id":"ab4a9b7a3a95d391","type":"text","text":"函数三要素","x":-729,"y":-277,"width":250,"height":60,"color":"2"},
 		{"id":"3aba22fb2553d8b5","type":"text","text":"值域","x":-1037,"y":-495,"width":174,"height":50,"color":"4"},
@@ -46,7 +45,13 @@
 		{"id":"a3fc966ade8e424a","type":"text","text":"[[💖对数运算高端]]","x":-1246,"y":630,"width":250,"height":60},
 		{"id":"5fe7ca95cf0279c5","type":"text","text":"[[💖三角函数知识结构图.canvas|💖三角函数知识结构图]]","x":-335,"y":-1000,"width":250,"height":143,"color":"2"},
 		{"id":"cb516402c54296a9","type":"text","text":"[[💖零点综合问题]]","x":665,"y":-144,"width":316,"height":50},
-		{"id":"21346490b09e7061","type":"text","text":"[[💖有理化]]\n[[💖分离常数]]\n[[💖参变分离]]\n[[💖指数运算法则]]\n[[💖对数换底公式]]\n[[换元法]]\n[[配方法]]\n[[💖分解因式]]\n韦达定理\n[[💖反解法]]\n[[💖齐次化方法]]\n函数中方程的处理方式[[💖零点综合问题]]\n","x":-1279,"y":-76,"width":329,"height":600,"color":"4"}
+		{"id":"21346490b09e7061","type":"text","text":"[[💖有理化]]\n[[💖分离常数]]\n[[💖参变分离]]\n[[💖指数运算法则]]\n[[💖对数换底公式]]\n[[换元法]]\n[[配方法]]\n[[💖分解因式]]\n韦达定理\n[[💖反解法]]\n[[💖齐次化方法]]\n函数中方程的处理方式[[💖零点综合问题]]\n","x":-1279,"y":-76,"width":329,"height":600,"color":"4"},
+		{"id":"f28136d1784573dd","type":"text","text":"[[💖函数的周期性]]","x":-10,"y":690,"width":320,"height":68},
+		{"id":"e5c8b7934f35b976","type":"text","text":"[[💖周期性例题]]","x":43,"y":906,"width":250,"height":60},
+		{"id":"5379381124fbf801","type":"text","text":"[[💖飘带函数]]","x":-42,"y":-857,"width":211,"height":50,"color":"2"},
+		{"id":"d4d38cbf75af2e0e","type":"text","text":"[[💖恒成立与有解的理解]]","x":-1121,"y":-893,"width":317,"height":50,"color":"2"},
+		{"id":"248559ac8aa41de8","type":"text","text":"[[恒成立不同类型]]","x":-1208,"y":-1039,"width":298,"height":50},
+		{"id":"87d786119c6fde8b","x":-487,"y":855,"width":250,"height":60,"type":"text","text":"[[💖指数运算]]"}
 	],
 	"edges":[
 		{"id":"cf9c20c03ada30ed","fromNode":"4b23bcece7cace7e","fromSide":"left","toNode":"9813348e6b766aa3","toSide":"right"},
@@ -94,6 +99,11 @@
 		{"id":"52c62700f561e199","fromNode":"9813348e6b766aa3","fromSide":"left","toNode":"21346490b09e7061","toSide":"right"},
 		{"id":"469c0cf5a406abf0","fromNode":"02cf56483309416a","fromSide":"bottom","toNode":"40659e9e086270f3","toSide":"top"},
 		{"id":"752be82637ee52a6","fromNode":"4b23bcece7cace7e","fromSide":"top","toNode":"5fe7ca95cf0279c5","toSide":"bottom"},
-		{"id":"6643c923e9656f35","fromNode":"c5fd5dfe0b3237b8","fromSide":"right","toNode":"cb516402c54296a9","toSide":"left"}
+		{"id":"6643c923e9656f35","fromNode":"c5fd5dfe0b3237b8","fromSide":"right","toNode":"cb516402c54296a9","toSide":"left"},
+		{"id":"ee1f2405e6ed25c8","fromNode":"ccfc6d33540d1bea","fromSide":"bottom","toNode":"f28136d1784573dd","toSide":"top"},
+		{"id":"501b0cd0d30a6aaf","fromNode":"f28136d1784573dd","fromSide":"bottom","toNode":"e5c8b7934f35b976","toSide":"top"},
+		{"id":"8089f3f270ca6de4","fromNode":"4b23bcece7cace7e","fromSide":"top","toNode":"d4d38cbf75af2e0e","toSide":"bottom"},
+		{"id":"4de14b9af0f89adb","fromNode":"d4d38cbf75af2e0e","fromSide":"top","toNode":"248559ac8aa41de8","toSide":"bottom"},
+		{"id":"8380f38d2a2cf33e","fromNode":"794fb97aca16860d","fromSide":"bottom","toNode":"87d786119c6fde8b","toSide":"top"}
 	]
 }

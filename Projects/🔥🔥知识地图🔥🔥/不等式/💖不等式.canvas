@@ -7,7 +7,11 @@
 		{"id":"254fb9fc72f3ac25","type":"text","text":"[[💖一元二次不等式和简单高次不等式]]","x":-800,"y":-80,"width":250,"height":180},
 		{"id":"cfaa8ccc821afca3","type":"text","text":"**不等式的应用（超级广泛）**","x":-247,"y":-260,"width":347,"height":80,"color":"2"},
 		{"id":"e0c046bba8717014","type":"text","text":"[[💖比较大小的方法]]","x":-215,"y":280,"width":315,"height":60,"color":"4"},
-		{"id":"9fe4b4bb2193b6da","type":"text","text":"一元二次不等式","x":-465,"y":-55,"width":250,"height":60,"color":"2"}
+		{"id":"9fe4b4bb2193b6da","type":"text","text":"一元二次不等式","x":-465,"y":-55,"width":250,"height":60,"color":"2"},
+		{"id":"9e72144ed908d866","x":69,"y":280,"width":296,"height":54,"type":"text","text":"[[💖几类特殊问题]]"},
+		{"id":"19d706d17d673129","x":365,"y":-74,"width":320,"height":68,"type":"text","text":"[[💖基本不等式习题]]"},
+		{"id":"c4cbb8769275f58a","x":-620,"y":130,"width":250,"height":60,"type":"text","text":"[[💖三角不等式]]"},
+		{"id":"bab1eb1928131c9d","x":-880,"y":-154,"width":298,"height":50,"type":"text","text":"[[💖指数对数不等式]]"}
 	],
 	"edges":[
 		{"id":"9249af97f1dc12c0","fromNode":"5ecedb5c571f9a71","fromSide":"bottom","toNode":"e49e5413d2c02d84","toSide":"top"},
@@ -16,6 +20,10 @@
 		{"id":"42c3ec727503ec2b","fromNode":"5ecedb5c571f9a71","fromSide":"top","toNode":"cfaa8ccc821afca3","toSide":"bottom"},
 		{"id":"dc7c6e046b3ba540","fromNode":"e49e5413d2c02d84","fromSide":"bottom","toNode":"e0c046bba8717014","toSide":"top"},
 		{"id":"dd851cf187a40187","fromNode":"9fe4b4bb2193b6da","fromSide":"left","toNode":"254fb9fc72f3ac25","toSide":"right"},
-		{"id":"13e850df5cc1b007","fromNode":"7a10ba0bdc6e132d","fromSide":"right","toNode":"a9de21307bbd28aa","toSide":"top"}
+		{"id":"13e850df5cc1b007","fromNode":"7a10ba0bdc6e132d","fromSide":"right","toNode":"a9de21307bbd28aa","toSide":"top"},
+		{"id":"75f2e963b00ef26d","fromNode":"e49e5413d2c02d84","fromSide":"bottom","toNode":"9e72144ed908d866","toSide":"top"},
+		{"id":"f6e592ae36387dbf","fromNode":"7a10ba0bdc6e132d","fromSide":"right","toNode":"19d706d17d673129","toSide":"left"},
+		{"id":"a756796a6d564d1c","fromNode":"5ecedb5c571f9a71","fromSide":"left","toNode":"c4cbb8769275f58a","toSide":"right"},
+		{"id":"da7ec9f2b8ca23dc","fromNode":"5ecedb5c571f9a71","fromSide":"left","toNode":"bab1eb1928131c9d","toSide":"right"}
 	]
 }

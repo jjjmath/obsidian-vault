@@ -36,12 +36,17 @@
 		{"id":"3002340d03fbe74c","type":"text","text":"[[💖三角形中的角常用关系]]","x":790,"y":-750,"width":401,"height":50},
 		{"id":"a857c36287fb9ab3","type":"text","text":"[[1.三角函数的图像和性质]]","x":830,"y":-170,"width":320,"height":55},
 		{"id":"eb4462303d2981b0","type":"text","text":"[[4.💖三角函数图像性质综合应用]]","x":-1260,"y":-640,"width":463,"height":80},
-		{"id":"f637029cb715c24e","type":"text","text":"$\\color{red}恒等变换$","x":173,"y":-725,"width":250,"height":60,"color":"6"},
 		{"id":"c0ae7b3a9a08b9e4","type":"text","text":"[[💖和差化积与积化和差]]","x":-1109,"y":-1241,"width":344,"height":51},
 		{"id":"27e719558916e002","type":"text","text":"[[3.两角和与差的正切]]","x":-700,"y":-933,"width":325,"height":89},
 		{"id":"bd2a0cdc81c04bdb","type":"text","text":"[[💖降幂公式]]","x":-290,"y":-993,"width":250,"height":60},
-		{"id":"641782d649c22e91","x":-250,"y":-894,"width":289,"height":50,"type":"text","text":"[[5.二倍角公式(2)]]"},
-		{"id":"5ae6ab0aa7e602b8","type":"text","text":"[[💖三角函数定义补充]]","x":438,"y":425,"width":319,"height":70}
+		{"id":"641782d649c22e91","type":"text","text":"[[5.二倍角公式(2)]]","x":-250,"y":-894,"width":289,"height":50},
+		{"id":"5ae6ab0aa7e602b8","type":"text","text":"[[💖三角函数定义补充]]","x":438,"y":425,"width":319,"height":70},
+		{"id":"2e3a2810cf4e42cf","x":-1392,"y":-339,"width":325,"height":73,"type":"text","text":"[[💖三角函数的对称性]]"},
+		{"id":"ee37cb0f8977d4f1","x":573,"y":-900,"width":347,"height":50,"type":"text","text":"[[💖同角三角基本关系式]]"},
+		{"id":"81e3e9dd9e38faf1","x":974,"y":-31,"width":250,"height":60,"type":"text","text":"[[💖五点作图]]"},
+		{"id":"f637029cb715c24e","type":"text","text":"$\\color{red}恒等变换$","x":100,"y":-780,"width":250,"height":60,"color":"6"},
+		{"id":"5edb8ce0ef8b8e65","x":-1260,"y":-830,"width":294,"height":50,"type":"text","text":"[[💖带ω的问题专题]]"},
+		{"id":"a95a044fb733fd11","x":-1518,"y":-780,"width":253,"height":85,"type":"text","text":"[[18.三角函数综合问题]]"}
 	],
 	"edges":[
 		{"id":"4d97ad3a1ed86c3d","fromNode":"0ba62fb0e36c5cd9","fromSide":"bottom","toNode":"7eb44a1606382a58","toSide":"top"},
@@ -99,6 +104,12 @@
 		{"id":"d0dd0bdbfd9f851e","fromNode":"1bda65a49618d8e8","fromSide":"right","toNode":"3002340d03fbe74c","toSide":"bottom"},
 		{"id":"682695a86989d203","fromNode":"f637029cb715c24e","fromSide":"right","toNode":"3002340d03fbe74c","toSide":"left"},
 		{"id":"e181cfbf1b0a1cbf","fromNode":"4da3b23f482db9ed","fromSide":"top","toNode":"641782d649c22e91","toSide":"bottom"},
-		{"id":"458d99da7588f353","fromNode":"641782d649c22e91","fromSide":"top","toNode":"15e984a38c03ed3c","toSide":"bottom"}
+		{"id":"458d99da7588f353","fromNode":"641782d649c22e91","fromSide":"top","toNode":"15e984a38c03ed3c","toSide":"bottom"},
+		{"id":"648d0b40f2188955","fromNode":"0b34e2bb47d407ce","fromSide":"left","toNode":"2e3a2810cf4e42cf","toSide":"right"},
+		{"id":"f589ca535eca48ba","fromNode":"045efda457d93b48","fromSide":"top","toNode":"ee37cb0f8977d4f1","toSide":"bottom"},
+		{"id":"d5e736e3d19e98c1","fromNode":"d8d322b58b65ea88","fromSide":"top","toNode":"ee37cb0f8977d4f1","toSide":"bottom"},
+		{"id":"9028125ffce51225","fromNode":"9b636a93d0bfa5d9","fromSide":"right","toNode":"81e3e9dd9e38faf1","toSide":"left"},
+		{"id":"93cd85d3c0798c3f","fromNode":"eb4462303d2981b0","fromSide":"top","toNode":"5edb8ce0ef8b8e65","toSide":"bottom"},
+		{"id":"e15880a2f21ca739","fromNode":"eb4462303d2981b0","fromSide":"top","toNode":"a95a044fb733fd11","toSide":"bottom"}
 	]
 }
