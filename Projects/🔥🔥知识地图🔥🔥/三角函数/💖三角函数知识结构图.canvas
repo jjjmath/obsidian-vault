@@ -41,12 +41,12 @@
 		{"id":"bd2a0cdc81c04bdb","type":"text","text":"[[💖降幂公式]]","x":-290,"y":-993,"width":250,"height":60},
 		{"id":"641782d649c22e91","type":"text","text":"[[5.二倍角公式(2)]]","x":-250,"y":-894,"width":289,"height":50},
 		{"id":"5ae6ab0aa7e602b8","type":"text","text":"[[💖三角函数定义补充]]","x":438,"y":425,"width":319,"height":70},
-		{"id":"2e3a2810cf4e42cf","x":-1392,"y":-339,"width":325,"height":73,"type":"text","text":"[[💖三角函数的对称性]]"},
-		{"id":"ee37cb0f8977d4f1","x":573,"y":-900,"width":347,"height":50,"type":"text","text":"[[💖同角三角基本关系式]]"},
-		{"id":"81e3e9dd9e38faf1","x":974,"y":-31,"width":250,"height":60,"type":"text","text":"[[💖五点作图]]"},
+		{"id":"2e3a2810cf4e42cf","type":"text","text":"[[💖三角函数的对称性]]","x":-1392,"y":-339,"width":325,"height":73},
+		{"id":"ee37cb0f8977d4f1","type":"text","text":"[[💖同角三角基本关系式]]","x":573,"y":-900,"width":347,"height":50},
+		{"id":"81e3e9dd9e38faf1","type":"text","text":"[[💖五点作图]]","x":974,"y":-31,"width":250,"height":60},
 		{"id":"f637029cb715c24e","type":"text","text":"$\\color{red}恒等变换$","x":100,"y":-780,"width":250,"height":60,"color":"6"},
-		{"id":"5edb8ce0ef8b8e65","x":-1260,"y":-830,"width":294,"height":50,"type":"text","text":"[[💖带ω的问题专题]]"},
-		{"id":"a95a044fb733fd11","x":-1518,"y":-780,"width":253,"height":85,"type":"text","text":"[[18.三角函数综合问题]]"}
+		{"id":"5edb8ce0ef8b8e65","type":"text","text":"[[💖带ω的问题专题]]","x":-1260,"y":-830,"width":294,"height":50},
+		{"id":"a95a044fb733fd11","type":"text","text":"[[18.三角函数综合问题]]","x":-1518,"y":-780,"width":253,"height":85}
 	],
 	"edges":[
 		{"id":"4d97ad3a1ed86c3d","fromNode":"0ba62fb0e36c5cd9","fromSide":"bottom","toNode":"7eb44a1606382a58","toSide":"top"},
