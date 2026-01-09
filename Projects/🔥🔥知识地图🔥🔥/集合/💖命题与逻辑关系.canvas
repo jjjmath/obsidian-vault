@@ -2,11 +2,12 @@
 	"nodes":[
 		{"id":"c770957604cd6451","type":"text","text":"全程量词与存在量词","x":140,"y":-140,"width":325,"height":60,"color":"2"},
 		{"id":"9af4ef993a86376a","type":"text","text":"命题与逻辑关系","x":-200,"y":-140,"width":250,"height":60,"color":"1"},
-		{"id":"ebc8afd1ab23d547","type":"text","text":"恒成立与有解问题","x":-180,"y":-400,"width":250,"height":140,"color":"2"},
-		{"id":"4751401267eb6a33","x":-180,"y":-560,"width":250,"height":90,"type":"text","text":"[[💖恒成立与有解的理解]]"},
-		{"id":"7e1bdbbc758de001","x":-240,"y":160,"width":250,"height":60,"type":"text","text":"[[💖充要条件]]"},
+		{"id":"ebc8afd1ab23d547","type":"text","text":"恒成立与有解问题","x":-180,"y":-400,"width":250,"height":60,"color":"2"},
+		{"id":"4751401267eb6a33","type":"text","text":"[[💖恒成立与有解的理解]]","x":-180,"y":-560,"width":250,"height":90},
+		{"id":"7e1bdbbc758de001","type":"text","text":"[[💖充要条件]]","x":-240,"y":160,"width":250,"height":60},
 		{"id":"c9faff774a85241e","type":"text","text":"充要条件","x":-180,"y":0,"width":165,"height":80,"color":"2"},
-		{"id":"c5cb1c633dbd53cd","type":"text","text":"命题的否定","x":-580,"y":-140,"width":250,"height":60,"color":"2"}
+		{"id":"c5cb1c633dbd53cd","type":"text","text":"命题的否定","x":-580,"y":-140,"width":250,"height":60,"color":"2"},
+		{"id":"894820ff4756f26a","x":100,"y":-545,"width":301,"height":60,"type":"text","text":"[[恒成立有解问题🚀]]"}
 	],
 	"edges":[
 		{"id":"27cb746ff1fead75","fromNode":"9af4ef993a86376a","fromSide":"bottom","toNode":"c9faff774a85241e","toSide":"top"},
@@ -14,6 +15,7 @@
 		{"id":"093ed81c67e65bc6","fromNode":"c5cb1c633dbd53cd","fromSide":"right","toNode":"9af4ef993a86376a","toSide":"left"},
 		{"id":"27063c7e875bc318","fromNode":"9af4ef993a86376a","fromSide":"top","toNode":"ebc8afd1ab23d547","toSide":"bottom"},
 		{"id":"8d022795673e0624","fromNode":"ebc8afd1ab23d547","fromSide":"top","toNode":"4751401267eb6a33","toSide":"bottom"},
-		{"id":"6552fe1013088f83","fromNode":"c9faff774a85241e","fromSide":"bottom","toNode":"7e1bdbbc758de001","toSide":"top"}
+		{"id":"6552fe1013088f83","fromNode":"c9faff774a85241e","fromSide":"bottom","toNode":"7e1bdbbc758de001","toSide":"top"},
+		{"id":"c7d41eb1e9be556d","fromNode":"ebc8afd1ab23d547","fromSide":"top","toNode":"894820ff4756f26a","toSide":"bottom"}
 	]
 }
