@@ -1,8 +1,8 @@
+filters:
+  or:
+    - file.tags.contains("#-")
 views:
   - type: table
     name: 表格
-    filters:
-      and:
-        - file.tags.contains("#-充分条件")
   - type: table
     name: 视图
