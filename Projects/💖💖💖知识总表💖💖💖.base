@@ -1,3 +1,6 @@
+filters:
+  and:
+    - file.basename.contains("🔴🔴🔴")
 views:
   - type: table
     name: 表格
