@@ -23,7 +23,8 @@
 		{"id":"576c4e464b0ce7bd","type":"text","text":"[[💖集合间的关系]]","x":165,"y":260,"width":315,"height":60},
 		{"id":"a001f8473ce8568f","type":"text","text":"[[💖集合的基本概念]]","x":323,"y":-395,"width":315,"height":70},
 		{"id":"8ffb3effbb962522","type":"text","text":"互异性","x":20,"y":380,"width":145,"height":60,"color":"#f00a0a"},
-		{"id":"a674519a64d2c10f","x":-571,"y":560,"width":250,"height":60,"type":"text","text":"[[13.集合问题]]"}
+		{"id":"a674519a64d2c10f","type":"text","text":"[[13.集合问题]]","x":-571,"y":560,"width":250,"height":60},
+		{"id":"7a343154620e318c","x":-571,"y":200,"width":250,"height":60,"type":"text","text":"[[💖集合间的关系]]"}
 	],
 	"edges":[
 		{"id":"d14afd30ebaf5e23","fromNode":"4adf71c212e53896","fromSide":"bottom","toNode":"d32622fd55790640","toSide":"top"},
@@ -49,6 +50,7 @@
 		{"id":"ea30ad67a97fe5ac","fromNode":"e42eca71f618ef3a","fromSide":"bottom","toNode":"576c4e464b0ce7bd","toSide":"top"},
 		{"id":"509760d4c51b6c6a","fromNode":"04e2ffcf45b241c0","fromSide":"top","toNode":"a001f8473ce8568f","toSide":"bottom"},
 		{"id":"d0253228bd762e3c","fromNode":"284ab1186c6e6da7","fromSide":"right","toNode":"a001f8473ce8568f","toSide":"left"},
-		{"id":"f9be499e49f6aedb","fromNode":"dc42b5b349453d31","fromSide":"bottom","toNode":"a674519a64d2c10f","toSide":"top"}
+		{"id":"f9be499e49f6aedb","fromNode":"dc42b5b349453d31","fromSide":"bottom","toNode":"a674519a64d2c10f","toSide":"top"},
+		{"id":"dc0865dd8de19f42","fromNode":"d32622fd55790640","fromSide":"bottom","toNode":"7a343154620e318c","toSide":"top"}
 	]
 }
