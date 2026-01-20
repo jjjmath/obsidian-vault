@@ -62,7 +62,8 @@
 		{"id":"984f979d0f630f64","x":585,"y":-580,"width":250,"height":60,"type":"text","text":"[[💖二次函数相关问题|二次函数]]"},
 		{"id":"906a2b5840ced3e7","x":799,"y":-809,"width":250,"height":60,"type":"text","text":"[[💖二次函数]]"},
 		{"id":"142ecf34951349ec","type":"text","text":"[[💖函数的性质]]","x":44,"y":415,"width":250,"height":60},
-		{"id":"8910c564ef30d24b","x":-103,"y":609,"width":250,"height":60,"type":"text","text":"[[分段对称的函数]]"}
+		{"id":"8910c564ef30d24b","x":-103,"y":609,"width":250,"height":60,"type":"text","text":"[[分段对称的函数]]"},
+		{"id":"150de69db0e954e3","x":-1325,"y":-781,"width":250,"height":60,"type":"text","text":"[[函数新定义]]"}
 	],
 	"edges":[
 		{"id":"cf9c20c03ada30ed","fromNode":"4b23bcece7cace7e","fromSide":"left","toNode":"9813348e6b766aa3","toSide":"right","color":"5"},
@@ -126,6 +127,7 @@
 		{"id":"4f9e8f1d0deb48ad","fromNode":"6397c4bb6f92cb87","fromSide":"top","toNode":"b9b292a0c1aa27cd","toSide":"bottom","color":"1"},
 		{"id":"b6fc75278f3d1a23","fromNode":"6397c4bb6f92cb87","fromSide":"right","toNode":"bd947a0ac9ac9dfe","toSide":"left","color":"1"},
 		{"id":"4c70344aa9f2fc36","fromNode":"6397c4bb6f92cb87","fromSide":"top","toNode":"906a2b5840ced3e7","toSide":"bottom","color":"1"},
-		{"id":"680efe2c6dc7c486","fromNode":"644fdb12e78c9129","fromSide":"bottom","toNode":"8910c564ef30d24b","toSide":"top","color":"4"}
+		{"id":"680efe2c6dc7c486","fromNode":"644fdb12e78c9129","fromSide":"bottom","toNode":"8910c564ef30d24b","toSide":"top","color":"4"},
+		{"id":"c7032a1da9b60211","fromNode":"4b23bcece7cace7e","fromSide":"top","toNode":"150de69db0e954e3","toSide":"bottom","color":"4"}
 	]
 }
