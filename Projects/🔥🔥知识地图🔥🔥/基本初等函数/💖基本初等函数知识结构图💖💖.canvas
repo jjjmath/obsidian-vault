@@ -43,7 +43,6 @@
 		{"id":"d4d38cbf75af2e0e","type":"text","text":"[[💖恒成立与有解的理解]]","x":-1121,"y":-893,"width":317,"height":50,"color":"2"},
 		{"id":"248559ac8aa41de8","type":"text","text":"[[恒成立不同类型]]","x":-1208,"y":-1039,"width":298,"height":50},
 		{"id":"87d786119c6fde8b","type":"text","text":"[[💖指数运算]]","x":-487,"y":855,"width":250,"height":60},
-		{"id":"142ecf34951349ec","type":"text","text":"[[💖函数的性质]]","x":-78,"y":490,"width":250,"height":60},
 		{"id":"0cc4a93a867dd74d","type":"text","text":"[[函数的对称性2🔴🔴🔴]]","x":-78,"y":817,"width":359,"height":68},
 		{"id":"6d56616f6ec9e4bb","type":"text","text":"周期性","x":305,"y":127,"width":154,"height":66,"color":"4"},
 		{"id":"369ef2122ecbf0a0","type":"text","text":"[[💖零点高端问题]]","x":823,"y":11,"width":250,"height":60},
@@ -61,7 +60,9 @@
 		{"id":"b9b292a0c1aa27cd","x":473,"y":-762,"width":250,"height":60,"type":"text","text":"[[二次函数难题🔴🔴🔴|二次函数综合]]"},
 		{"id":"bd947a0ac9ac9dfe","x":763,"y":-477,"width":250,"height":60,"type":"text","text":"[[二次函数难题🔴🔴🔴]]"},
 		{"id":"984f979d0f630f64","x":585,"y":-580,"width":250,"height":60,"type":"text","text":"[[💖二次函数相关问题|二次函数]]"},
-		{"id":"906a2b5840ced3e7","x":799,"y":-809,"width":250,"height":60,"type":"text","text":"[[💖二次函数]]"}
+		{"id":"906a2b5840ced3e7","x":799,"y":-809,"width":250,"height":60,"type":"text","text":"[[💖二次函数]]"},
+		{"id":"142ecf34951349ec","type":"text","text":"[[💖函数的性质]]","x":44,"y":415,"width":250,"height":60},
+		{"id":"8910c564ef30d24b","x":-103,"y":609,"width":250,"height":60,"type":"text","text":"[[分段对称的函数]]"}
 	],
 	"edges":[
 		{"id":"cf9c20c03ada30ed","fromNode":"4b23bcece7cace7e","fromSide":"left","toNode":"9813348e6b766aa3","toSide":"right","color":"5"},
@@ -124,6 +125,7 @@
 		{"id":"1f7252664d953056","fromNode":"6397c4bb6f92cb87","fromSide":"top","toNode":"984f979d0f630f64","toSide":"bottom","color":"1"},
 		{"id":"4f9e8f1d0deb48ad","fromNode":"6397c4bb6f92cb87","fromSide":"top","toNode":"b9b292a0c1aa27cd","toSide":"bottom","color":"1"},
 		{"id":"b6fc75278f3d1a23","fromNode":"6397c4bb6f92cb87","fromSide":"right","toNode":"bd947a0ac9ac9dfe","toSide":"left","color":"1"},
-		{"id":"4c70344aa9f2fc36","fromNode":"6397c4bb6f92cb87","fromSide":"top","toNode":"906a2b5840ced3e7","toSide":"bottom","color":"1"}
+		{"id":"4c70344aa9f2fc36","fromNode":"6397c4bb6f92cb87","fromSide":"top","toNode":"906a2b5840ced3e7","toSide":"bottom","color":"1"},
+		{"id":"680efe2c6dc7c486","fromNode":"644fdb12e78c9129","fromSide":"bottom","toNode":"8910c564ef30d24b","toSide":"top","color":"4"}
 	]
 }
