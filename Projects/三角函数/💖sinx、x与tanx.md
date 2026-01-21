@@ -17,7 +17,7 @@ tags:
 >如下图：
 >$\sin x=AB,\tan x=CD,x=\overset{\frown}{CB}$
 
-![[sinxxtanx.excalidraw]]
+![[sinxxtanx.excalidraw|600]]
 
 >[!tip] 利用几何关系
 >$AB<CB$
