@@ -1,72 +1,57 @@
----
-作者: 许宏杰
-创建日期: 星期五, 十二月 26日 2025
-修改日期: 星期日, 一月 4日 2026
----
-# [Obsidian Knowledge Base]
+# Obsidian Mathematics Notes Repository
 
-**This is a personal private knowledge base, and all content is copyright protected.**
+## 📜 License Statement
 
-## 🛡️ Important Notice
+All content in this knowledge base, unless otherwise specified, is licensed under the **[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](LICENSE)**.
 
-All content within this knowledge base:
-- Represents the outcomes of personal learning, thinking, and creation
-- Is protected under the *Copyright Law of the People's Republic of China*
-- Shall not be copied, distributed, or used for commercial purposes without authorization
+### This means you may:
+- ✅ **Share** — copy and redistribute the material in any medium or format
+- ✅ **Adapt** — remix, transform, and build upon the material
 
-## 📜 Terms of Use
+### Under the following terms:
+1. **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made
+2. **NonCommercial** — **You may not use the material for commercial purposes**
+3. **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the **same license**
 
-If you have obtained a copy of this knowledge base through any means:
-
-1. **For personal learning and reference only**
-2. **Shall not be publicly distributed**
-3. **Shall not be used for commercial purposes**
-4. **Shall not be claimed as original work**
+### In simple terms:
+- 🔓 **You can**: Freely learn from, share, and improve these notes
+- 🚫 **You cannot**: Use for commercial purposes (e.g., publishing books for sale, creating paid courses)
+- 🔄 **Requirements**: Credit the original author when sharing, and keep derivative works under the same license
 
 ## © Copyright Information
 
-Copyright © [2025] [Xu Hongjie]
-All rights reserved
-
-## 📧 Authorization Requests
-
-If you wish to use any of the content herein, please contact:
-- [xu_hongjie@sina.com]
-- [Your Social Media/Website]
+**Copyright Holder**: Xu Hongjie  
+**Contact**: xu_hongjie@sina.com  
+**Repository**: [https://github.com/jjjmath/obsidian-vault](https://github.com/jjjmath/obsidian-vault)
 
 ---
-*Last updated: [December 27, 2025]*
+*For the complete license text, please refer to the [LICENSE](LICENSE) file in the project root directory.*
 
-# [Obsidian知识库]
+# [Obsidian 数学笔记库]
 
-**这是个人私有知识库，内容受版权保护**
+## 📜 许可证声明
 
-## 🛡️ 重要声明
+本知识库中的所有内容，除非另有说明，均采用 **[知识共享 署名-非商业性使用-相同方式共享 4.0 国际许可证](LICENSE)**。
 
-本知识库中的全部内容：
-- 均为个人学习、思考、创作的成果
-- 受《中华人民共和国著作权法》保护
-- 未经授权不得复制、传播、商用
+### 这意味着您可以：
+- ✅ **分享** — 以任何媒介或格式复制和重新分发材料
+- ✅ **改编** — 修改、转换或以本材料为基础进行创作
 
-## 📜 使用条款
+### 但必须遵守以下条件：
+1. **署名** — 必须给出适当的署名，提供指向本许可证的链接，并说明是否作出了修改
+2. **非商业性使用** — **不得将本材料用于商业目的**
+3. **相同方式共享** — 如果您修改了本材料，则必须以**相同的许可证**分发您的衍生作品
 
-如果你通过任何途径获得了本知识库的副本：
-
-1. **仅可个人学习参考**
-2. **不得公开传播**
-3. **不得用于商业目的**
-4. **不得声称原创**
+### 简单来说：
+- 🔓 **可以**：自由学习、分享、改进这些笔记
+- 🚫 **不可以**：用于商业用途（如出版售书、制作付费课程）
+- 🔄 **要求**：分享时注明原作者，且衍生作品保持相同许可
 
 ## © 版权信息
 
-版权所有 © [2025] [许宏杰]
-保留所有权利
-
-## 📧 授权申请
-
-如果你希望使用其中的内容，请联系：
-- [xu_hongjie@sina.com]
-- [(https://github.com/jjjmath/obsidian-vault)]
+版权持有者：许宏杰  
+联系方式：xu_hongjie@sina.com  
+项目地址：[https://github.com/jjjmath/obsidian-vault](https://github.com/jjjmath/obsidian-vault)
 
 ---
-*最后更新：[2025年-12月-27日]*
+*完整许可证文本请参阅项目根目录下的 [LICENSE](LICENSE) 文件*
