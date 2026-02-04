@@ -56,14 +56,15 @@
 		{"id":"e5c8b7934f35b976","type":"text","text":"[[💖周期性例题]]","x":392,"y":940,"width":250,"height":60},
 		{"id":"9f14551fafcb726f","type":"text","text":"[[💖二次函数根的分布|💖二次函数根的分布]]","x":689,"y":-69,"width":292,"height":50},
 		{"id":"21346490b09e7061","type":"text","text":"[[💖有理化]]\n[[💖分离常数]]\n[[💖参变分离]]\n[[💖指数运算法则]]\n[[💖对数换底公式]]\n[[换元法]]\n[[配方法]]\n[[💖分解因式]]\n韦达定理\n[[💖反解法]]\n[[💖齐次化方法]]\n函数中方程的处理方式[[💖零点综合问题🔴🔴🔴]]\n","x":-1325,"y":-96,"width":329,"height":600,"color":"4"},
-		{"id":"6397c4bb6f92cb87","x":450,"y":-393,"width":250,"height":60,"type":"text","text":"二次函数"},
-		{"id":"b9b292a0c1aa27cd","x":473,"y":-762,"width":250,"height":60,"type":"text","text":"[[二次函数难题🔴🔴🔴|二次函数综合]]"},
-		{"id":"bd947a0ac9ac9dfe","x":763,"y":-477,"width":250,"height":60,"type":"text","text":"[[二次函数难题🔴🔴🔴]]"},
-		{"id":"984f979d0f630f64","x":585,"y":-580,"width":250,"height":60,"type":"text","text":"[[💖二次函数相关问题|二次函数]]"},
-		{"id":"906a2b5840ced3e7","x":799,"y":-809,"width":250,"height":60,"type":"text","text":"[[💖二次函数]]"},
+		{"id":"6397c4bb6f92cb87","type":"text","text":"二次函数","x":450,"y":-393,"width":250,"height":60},
+		{"id":"b9b292a0c1aa27cd","type":"text","text":"[[二次函数难题🔴🔴🔴|二次函数综合]]","x":473,"y":-762,"width":250,"height":60},
+		{"id":"bd947a0ac9ac9dfe","type":"text","text":"[[二次函数难题🔴🔴🔴]]","x":763,"y":-477,"width":250,"height":60},
+		{"id":"984f979d0f630f64","type":"text","text":"[[💖二次函数相关问题|二次函数]]","x":585,"y":-580,"width":250,"height":60},
+		{"id":"906a2b5840ced3e7","type":"text","text":"[[💖二次函数]]","x":799,"y":-809,"width":250,"height":60},
 		{"id":"142ecf34951349ec","type":"text","text":"[[💖函数的性质]]","x":44,"y":415,"width":250,"height":60},
-		{"id":"8910c564ef30d24b","x":-103,"y":609,"width":250,"height":60,"type":"text","text":"[[分段对称的函数]]"},
-		{"id":"150de69db0e954e3","x":-1325,"y":-781,"width":250,"height":60,"type":"text","text":"[[函数新定义]]"}
+		{"id":"8910c564ef30d24b","type":"text","text":"[[分段对称的函数]]","x":-103,"y":609,"width":250,"height":60},
+		{"id":"150de69db0e954e3","type":"text","text":"[[函数新定义]]","x":-1325,"y":-781,"width":250,"height":60},
+		{"id":"665d3927dbfc0c48","x":1017,"y":147,"width":250,"height":60,"type":"text","text":"[[三角函数与零点]]"}
 	],
 	"edges":[
 		{"id":"cf9c20c03ada30ed","fromNode":"4b23bcece7cace7e","fromSide":"left","toNode":"9813348e6b766aa3","toSide":"right","color":"5"},
@@ -128,6 +129,7 @@
 		{"id":"b6fc75278f3d1a23","fromNode":"6397c4bb6f92cb87","fromSide":"right","toNode":"bd947a0ac9ac9dfe","toSide":"left","color":"1"},
 		{"id":"4c70344aa9f2fc36","fromNode":"6397c4bb6f92cb87","fromSide":"top","toNode":"906a2b5840ced3e7","toSide":"bottom","color":"1"},
 		{"id":"680efe2c6dc7c486","fromNode":"644fdb12e78c9129","fromSide":"bottom","toNode":"8910c564ef30d24b","toSide":"top","color":"4"},
-		{"id":"c7032a1da9b60211","fromNode":"4b23bcece7cace7e","fromSide":"top","toNode":"150de69db0e954e3","toSide":"bottom","color":"4"}
+		{"id":"c7032a1da9b60211","fromNode":"4b23bcece7cace7e","fromSide":"top","toNode":"150de69db0e954e3","toSide":"bottom","color":"4"},
+		{"id":"6af89de50f14abd4","fromNode":"c5fd5dfe0b3237b8","fromSide":"right","toNode":"665d3927dbfc0c48","toSide":"left","color":"6"}
 	]
 }
