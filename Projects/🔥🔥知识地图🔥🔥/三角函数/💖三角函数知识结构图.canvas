@@ -3,7 +3,7 @@
 		{"id":"fb2a56d24d673c86","type":"text","text":"任意角和弧度制","x":-307,"y":260,"width":250,"height":60,"color":"4"},
 		{"id":"17d0fe9f4781c7bf","type":"text","text":"弧长和扇形面积","x":-40,"y":260,"width":250,"height":60,"color":"4"},
 		{"id":"0ba62fb0e36c5cd9","type":"text","text":"三角函数","x":-160,"y":-60,"width":160,"height":60,"color":"1"},
-		{"id":"7eb44a1606382a58","type":"text","text":"任意角（角的推广）\n","x":-220,"y":80,"width":285,"height":110,"color":"2"},
+		{"id":"7eb44a1606382a58","type":"text","text":"任意角（角的推广）\n","x":-220,"y":80,"width":285,"height":60,"color":"2"},
 		{"id":"941ef4d1f899b7ca","type":"text","text":"三角函数定义","x":65,"y":-60,"width":215,"height":60,"color":"2"},
 		{"id":"1bda65a49618d8e8","type":"text","text":"诱导公式","x":195,"y":80,"width":165,"height":60,"color":"4"},
 		{"id":"78cec99808ce38fe","type":"text","text":"三角函数的性质","x":-500,"y":-60,"width":250,"height":60,"color":"2"},
