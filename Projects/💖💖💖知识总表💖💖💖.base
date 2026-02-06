@@ -3,3 +3,5 @@ views:
     name: 表格
   - type: table
     name: 视图
+  - type: cards
+    name: 视图 2
