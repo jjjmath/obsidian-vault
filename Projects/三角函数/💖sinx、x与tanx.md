@@ -11,7 +11,7 @@ tags:
 版权: © 2025 [许宏杰]
 ---
 >[!note]
->$0<x<\frac{\pi}{2}时,\sin x<x<\tan x$
+>$0<x<\dfrac{\pi}{2}时,\sin x<x<\tan x$
 
 >[!success]
 >如下图：
