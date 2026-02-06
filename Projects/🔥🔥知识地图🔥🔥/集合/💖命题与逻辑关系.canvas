@@ -1,27 +1,27 @@
 {
 	"nodes":[
 		{"id":"c770957604cd6451","type":"text","text":"全程量词与存在量词","x":140,"y":-140,"width":325,"height":60,"color":"2"},
-		{"id":"9af4ef993a86376a","type":"text","text":"命题与逻辑关系","x":-200,"y":-140,"width":250,"height":60,"color":"1"},
-		{"id":"7e1bdbbc758de001","type":"text","text":"[[💖充要条件]]","x":-240,"y":160,"width":250,"height":60},
-		{"id":"c9faff774a85241e","type":"text","text":"充要条件","x":-180,"y":0,"width":165,"height":80,"color":"2"},
+		{"id":"9af4ef993a86376a","type":"text","text":"<span style='color:red'>命题与逻辑关系","x":-200,"y":-140,"width":250,"height":60,"color":"1"},
+		{"id":"7e1bdbbc758de001","type":"text","text":"[[💖充要条件]]","x":-240,"y":160,"width":250,"height":60,"color":"4"},
+		{"id":"c9faff774a85241e","type":"text","text":"充要条件","x":-180,"y":0,"width":165,"height":80,"color":"4"},
 		{"id":"c5cb1c633dbd53cd","type":"text","text":"命题的否定","x":-580,"y":-140,"width":250,"height":60,"color":"2"},
-		{"id":"ebc8afd1ab23d547","type":"text","text":"恒成立与有解问题","x":-180,"y":-280,"width":250,"height":60,"color":"2"},
-		{"id":"4751401267eb6a33","type":"text","text":"[[💖恒成立与有解的理解]]","x":-320,"y":-485,"width":370,"height":50},
-		{"id":"894820ff4756f26a","type":"text","text":"[[恒成立有解问题🚀]]","x":80,"y":-485,"width":301,"height":50},
-		{"id":"8191141a52204d98","x":95,"y":190,"width":345,"height":51,"type":"text","text":"[[充分必要条件积累---函数篇]]"},
-		{"id":"51580fe887c1a67e","x":-600,"y":80,"width":340,"height":62,"type":"text","text":"[[充分必要条件积累---三角函数篇]]"},
-		{"id":"a1735dc4f9d91fe1","x":151,"y":13,"width":409,"height":50,"type":"text","text":"[[充分必要条件问题积累--集合不等式]]"}
+		{"id":"ebc8afd1ab23d547","type":"text","text":"恒成立与有解问题","x":-180,"y":-280,"width":250,"height":60,"color":"1"},
+		{"id":"4751401267eb6a33","type":"text","text":"[[💖恒成立与有解的理解]]","x":-320,"y":-485,"width":370,"height":50,"color":"1"},
+		{"id":"894820ff4756f26a","type":"text","text":"[[恒成立有解问题🚀]]","x":80,"y":-485,"width":301,"height":50,"color":"1"},
+		{"id":"8191141a52204d98","type":"text","text":"[[充分必要条件积累---函数篇]]","x":95,"y":190,"width":345,"height":51,"color":"4"},
+		{"id":"51580fe887c1a67e","type":"text","text":"[[充分必要条件积累---三角函数篇]]","x":-600,"y":80,"width":340,"height":62,"color":"4"},
+		{"id":"a1735dc4f9d91fe1","type":"text","text":"[[充分必要条件问题积累--集合不等式]]","x":151,"y":13,"width":409,"height":50,"color":"4"}
 	],
 	"edges":[
 		{"id":"27cb746ff1fead75","fromNode":"9af4ef993a86376a","fromSide":"bottom","toNode":"c9faff774a85241e","toSide":"top"},
 		{"id":"ae349d52f6d6c7b1","fromNode":"9af4ef993a86376a","fromSide":"right","toNode":"c770957604cd6451","toSide":"left"},
-		{"id":"093ed81c67e65bc6","fromNode":"c5cb1c633dbd53cd","fromSide":"right","toNode":"9af4ef993a86376a","toSide":"left"},
 		{"id":"27063c7e875bc318","fromNode":"9af4ef993a86376a","fromSide":"top","toNode":"ebc8afd1ab23d547","toSide":"bottom"},
 		{"id":"8d022795673e0624","fromNode":"ebc8afd1ab23d547","fromSide":"top","toNode":"4751401267eb6a33","toSide":"bottom"},
 		{"id":"6552fe1013088f83","fromNode":"c9faff774a85241e","fromSide":"bottom","toNode":"7e1bdbbc758de001","toSide":"top"},
 		{"id":"c7d41eb1e9be556d","fromNode":"ebc8afd1ab23d547","fromSide":"top","toNode":"894820ff4756f26a","toSide":"bottom"},
 		{"id":"8c02e9e24a71d710","fromNode":"c9faff774a85241e","fromSide":"bottom","toNode":"8191141a52204d98","toSide":"top"},
 		{"id":"0074498019dc9010","fromNode":"c9faff774a85241e","fromSide":"left","toNode":"51580fe887c1a67e","toSide":"right"},
-		{"id":"03d84fc33207c29d","fromNode":"c9faff774a85241e","fromSide":"right","toNode":"a1735dc4f9d91fe1","toSide":"left"}
+		{"id":"03d84fc33207c29d","fromNode":"c9faff774a85241e","fromSide":"right","toNode":"a1735dc4f9d91fe1","toSide":"left"},
+		{"id":"bc24a768a008317f","fromNode":"9af4ef993a86376a","fromSide":"left","toNode":"c5cb1c633dbd53cd","toSide":"right"}
 	]
 }

@@ -1,0 +1,43 @@
+{
+	"nodes":[
+		{"id":"7e4156cd6b56cbf5","type":"text","text":"<span style='color:red'>平面向量</span>","x":-125,"y":-20,"width":145,"height":50,"color":"1"},
+		{"id":"b2230875e03bd61f","type":"text","text":"平面向量的基本定理","x":-480,"y":-30,"width":230,"height":60,"color":"5"},
+		{"id":"bd6e5db9c4c0859e","type":"text","text":"平面向量的概念","x":-177,"y":80,"width":250,"height":50,"color":"2"},
+		{"id":"3106bbc8fa7e40b9","type":"text","text":"数乘运算","x":-265,"y":-270,"width":140,"height":50,"color":"4"},
+		{"id":"c98ba3b42f8154f0","type":"text","text":"平面向量的运算","x":-107,"y":-145,"width":200,"height":50,"color":"4"},
+		{"id":"c6d97b2f74d71af9","type":"text","text":"加减运算法则","x":220,"y":-145,"width":180,"height":50,"color":"5"},
+		{"id":"2c56ace357d11f40","type":"text","text":"平行四边形法则","x":213,"y":-50,"width":194,"height":60,"color":"5"},
+		{"id":"f8f27150f95e5159","type":"text","text":"三角形法则","x":213,"y":-245,"width":250,"height":60,"color":"5"},
+		{"id":"6c40c3f9bdbb2246","type":"text","text":"向量的几何意义","x":240,"y":130,"width":197,"height":60,"color":"6"},
+		{"id":"61264cbc10f67a4d","type":"text","text":"[[极化恒等式的几何意义]]","x":234,"y":275,"width":266,"height":51},
+		{"id":"fe8f9a79aeea7115","type":"text","text":"向量的模","x":-320,"y":225,"width":140,"height":50,"color":"2"},
+		{"id":"19f1ff67f0efadb8","type":"text","text":"共线向量","x":18,"y":200,"width":145,"height":50,"color":"2"},
+		{"id":"fcb39d5cd9df6a62","type":"text","text":"[[等和线]]","x":0,"y":361,"width":128,"height":60,"color":"2"},
+		{"id":"8ad976114e5afe14","type":"text","text":"[[1.向量的概念|平面向量的概念]]","x":-357,"y":361,"width":250,"height":50,"color":"2"},
+		{"id":"24aeb86131de48f1","type":"text","text":"[[4.向量的数乘运算]]","x":-580,"y":-273,"width":250,"height":53,"color":"4"},
+		{"id":"9960a5727d6420f3","type":"text","text":"[[7.数量积的运算律和运算性质|数量积]]","x":-52,"y":-440,"width":137,"height":50,"color":"4"},
+		{"id":"9688b477c4a3f9ec","type":"text","text":"数量积","x":-37,"y":-317,"width":110,"height":50,"color":"4"},
+		{"id":"1fea3421d27f6848","type":"text","text":"[[向量的数量积运算方法总结✴|数量积]]的运算方法","x":157,"y":-420,"width":250,"height":60,"color":"4"},
+		{"id":"a3180ff2e07382cd","x":-455,"y":-439,"width":275,"height":60,"color":"4","type":"text","text":"[[极化恒等式例题|数量积]]极化恒等式例题"}
+	],
+	"edges":[
+		{"id":"b15393a4aaefe447","fromNode":"7e4156cd6b56cbf5","fromSide":"bottom","toNode":"bd6e5db9c4c0859e","toSide":"top","color":"2"},
+		{"id":"ec606eec66de6138","fromNode":"7e4156cd6b56cbf5","fromSide":"right","toNode":"6c40c3f9bdbb2246","toSide":"left","color":"6"},
+		{"id":"6c0f43e03748149d","fromNode":"7e4156cd6b56cbf5","fromSide":"left","toNode":"b2230875e03bd61f","toSide":"right","color":"5"},
+		{"id":"73690a70635ed835","fromNode":"bd6e5db9c4c0859e","fromSide":"bottom","toNode":"fe8f9a79aeea7115","toSide":"top","color":"2"},
+		{"id":"4f1c6bb0dcc94517","fromNode":"bd6e5db9c4c0859e","fromSide":"bottom","toNode":"19f1ff67f0efadb8","toSide":"top","color":"2"},
+		{"id":"f7bacf666cd4bc2d","fromNode":"c98ba3b42f8154f0","fromSide":"left","toNode":"3106bbc8fa7e40b9","toSide":"bottom","color":"4"},
+		{"id":"d13a5a8317409a02","fromNode":"c98ba3b42f8154f0","fromSide":"right","toNode":"c6d97b2f74d71af9","toSide":"left","color":"4"},
+		{"id":"5c8308407926a56e","fromNode":"c98ba3b42f8154f0","fromSide":"top","toNode":"9688b477c4a3f9ec","toSide":"bottom","color":"4"},
+		{"id":"dc234b4e8c971d87","fromNode":"7e4156cd6b56cbf5","fromSide":"top","toNode":"c98ba3b42f8154f0","toSide":"bottom","color":"4"},
+		{"id":"d07494ea37c8151e","fromNode":"c6d97b2f74d71af9","fromSide":"bottom","toNode":"2c56ace357d11f40","toSide":"top","color":"4"},
+		{"id":"3e34c224798bae15","fromNode":"c6d97b2f74d71af9","fromSide":"top","toNode":"f8f27150f95e5159","toSide":"bottom","color":"4"},
+		{"id":"6267990d3ef2cbbb","fromNode":"6c40c3f9bdbb2246","fromSide":"bottom","toNode":"61264cbc10f67a4d","toSide":"top","color":"6"},
+		{"id":"29d4bc34a382a09c","fromNode":"19f1ff67f0efadb8","fromSide":"bottom","toNode":"fcb39d5cd9df6a62","toSide":"top","color":"2"},
+		{"id":"f3a65b409c19dff3","fromNode":"bd6e5db9c4c0859e","fromSide":"bottom","toNode":"8ad976114e5afe14","toSide":"top","color":"2"},
+		{"id":"ddcd7a2e3cdd7302","fromNode":"3106bbc8fa7e40b9","fromSide":"left","toNode":"24aeb86131de48f1","toSide":"right","color":"4"},
+		{"id":"d30c4cee9ac6bef8","fromNode":"9688b477c4a3f9ec","fromSide":"top","toNode":"9960a5727d6420f3","toSide":"bottom","color":"4"},
+		{"id":"1d797ae11ec5b613","fromNode":"9688b477c4a3f9ec","fromSide":"right","toNode":"1fea3421d27f6848","toSide":"bottom","color":"4"},
+		{"id":"6def37012dacc6ae","fromNode":"9688b477c4a3f9ec","fromSide":"left","toNode":"a3180ff2e07382cd","toSide":"right","color":"4"}
+	]
+}
