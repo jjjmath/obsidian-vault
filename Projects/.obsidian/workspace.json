@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数学科普/蝴蝶效应与混沌数学.md",
+                "file": "函数/抽象函数/赋值法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "蝴蝶效应与混沌数学"
+              "title": "赋值法"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数学科普/蝴蝶效应与混沌数学.md",
+                "file": "函数/抽象函数/赋值法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "蝴蝶效应与混沌数学 的反向链接列表"
+              "title": "赋值法 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "数学科普/蝴蝶效应与混沌数学.md",
+                "file": "函数/抽象函数/赋值法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "蝴蝶效应与混沌数学 的出链列表"
+              "title": "赋值法 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "数学科普/蝴蝶效应与混沌数学.md",
+                "file": "函数/抽象函数/赋值法.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "蝴蝶效应与混沌数学 的大纲"
+              "title": "赋值法 的大纲"
             }
           }
         ]
@@ -184,5 +184,9 @@
     }
   },
   "active": "87ece22900126569",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "集合与逻辑关系/充要条件积累/充分必要条件积累---三角函数篇.md",
+    "集合与逻辑关系/充要条件积累/充分必要条件积累---函数篇.md",
+    "数学科普/蝴蝶效应与混沌数学.md"
+  ]
 }
