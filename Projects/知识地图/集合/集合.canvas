@@ -19,12 +19,12 @@
 		{"id":"dc42b5b349453d31","type":"text","text":"$\\varnothing$","x":-520,"y":380,"width":199,"height":60,"color":"2"},
 		{"id":"3a340fd490765552","type":"text","text":"系数等于0","x":-262,"y":380,"width":197,"height":60,"color":"2"},
 		{"id":"04e2ffcf45b241c0","type":"text","text":"集合的表示方法","x":40,"y":-70,"width":250,"height":60,"color":"4"},
-		{"id":"00ade4f627aeabb9","type":"text","text":"[[💖集合的运算]]","x":-242,"y":-480,"width":250,"height":60,"color":"1"},
-		{"id":"576c4e464b0ce7bd","type":"text","text":"[[💖集合间的关系]]","x":165,"y":260,"width":315,"height":60,"color":"2"},
-		{"id":"a001f8473ce8568f","type":"text","text":"[[💖集合的基本概念]]","x":323,"y":-395,"width":315,"height":70,"color":"4"},
+		{"id":"00ade4f627aeabb9","type":"text","text":"[[集合的运算]]","x":-242,"y":-480,"width":250,"height":60,"color":"1"},
+		{"id":"576c4e464b0ce7bd","type":"text","text":"[[集合间的关系]]","x":165,"y":260,"width":315,"height":60,"color":"2"},
+		{"id":"a001f8473ce8568f","type":"text","text":"[[集合的基本概念]]","x":323,"y":-395,"width":315,"height":70,"color":"4"},
 		{"id":"8ffb3effbb962522","type":"text","text":"互异性","x":20,"y":380,"width":145,"height":60,"color":"2"},
 		{"id":"a674519a64d2c10f","type":"text","text":"[[13.集合问题]]","x":-571,"y":560,"width":250,"height":60,"color":"2"},
-		{"id":"7a343154620e318c","type":"text","text":"[[💖集合间的关系]]","x":-571,"y":200,"width":250,"height":60,"color":"2"}
+		{"id":"7a343154620e318c","type":"text","text":"[[集合间的关系]]","x":-571,"y":200,"width":250,"height":60,"color":"2"}
 	],
 	"edges":[
 		{"id":"d14afd30ebaf5e23","fromNode":"4adf71c212e53896","fromSide":"bottom","toNode":"d32622fd55790640","toSide":"top"},

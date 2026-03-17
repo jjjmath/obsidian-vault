@@ -2,12 +2,12 @@
 	"nodes":[
 		{"id":"c770957604cd6451","type":"text","text":"全程量词与存在量词","x":140,"y":-140,"width":325,"height":60,"color":"2"},
 		{"id":"9af4ef993a86376a","type":"text","text":"<span style='color:red'>命题与逻辑关系","x":-200,"y":-140,"width":250,"height":60,"color":"1"},
-		{"id":"7e1bdbbc758de001","type":"text","text":"[[💖充要条件]]","x":-240,"y":160,"width":250,"height":60,"color":"4"},
+		{"id":"7e1bdbbc758de001","type":"text","text":"[[充要条件]]","x":-240,"y":160,"width":250,"height":60,"color":"4"},
 		{"id":"c9faff774a85241e","type":"text","text":"充要条件","x":-180,"y":0,"width":165,"height":80,"color":"4"},
 		{"id":"c5cb1c633dbd53cd","type":"text","text":"命题的否定","x":-580,"y":-140,"width":250,"height":60,"color":"2"},
 		{"id":"ebc8afd1ab23d547","type":"text","text":"恒成立与有解问题","x":-180,"y":-280,"width":250,"height":60,"color":"1"},
-		{"id":"4751401267eb6a33","type":"text","text":"[[💖恒成立与有解的理解]]","x":-320,"y":-485,"width":370,"height":50,"color":"1"},
-		{"id":"894820ff4756f26a","type":"text","text":"[[恒成立有解问题🚀]]","x":80,"y":-485,"width":301,"height":50,"color":"1"},
+		{"id":"4751401267eb6a33","type":"text","text":"[[恒成立与有解的理解]]","x":-320,"y":-485,"width":370,"height":50,"color":"1"},
+		{"id":"894820ff4756f26a","type":"text","text":"[[恒成立有解问题]]","x":80,"y":-485,"width":301,"height":50,"color":"1"},
 		{"id":"8191141a52204d98","type":"text","text":"[[充分必要条件积累---函数篇]]","x":95,"y":190,"width":345,"height":51,"color":"4"},
 		{"id":"51580fe887c1a67e","type":"text","text":"[[充分必要条件积累---三角函数篇]]","x":-600,"y":80,"width":340,"height":62,"color":"4"},
 		{"id":"a1735dc4f9d91fe1","type":"text","text":"[[充分必要条件问题积累--集合不等式]]","x":151,"y":13,"width":409,"height":50,"color":"4"}
