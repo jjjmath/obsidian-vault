@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"d94ad45e1cfed377","x":-125,"y":-30,"width":165,"height":60,"color":"1","type":"text","text":"立体几何初步"},
+		{"id":"a1893ac6c5a48cf1","x":-200,"y":160,"width":103,"height":60,"color":"4","type":"text","text":"多面体"},
+		{"id":"ff871a27db2acc67","x":-320,"y":296,"width":105,"height":50,"color":"4","type":"text","text":"棱柱"},
+		{"id":"ab669ff433a0a416","x":-200,"y":296,"width":89,"height":50,"color":"4","type":"text","text":"棱锥"},
+		{"id":"025f2a06a55d433c","x":-97,"y":296,"width":88,"height":56,"color":"4","type":"text","text":"棱台"},
+		{"id":"b0b9bdce4e29a83e","x":80,"y":160,"width":135,"height":50,"color":"6","type":"text","text":"旋转体"},
+		{"id":"99a09c76a57611d0","x":80,"y":296,"width":96,"height":60,"color":"6","type":"text","text":"圆柱"},
+		{"id":"c4d977e0a1d0945a","x":200,"y":296,"width":105,"height":58,"color":"6","type":"text","text":"圆锥"},
+		{"id":"d4c2e64dc46089d1","x":340,"y":296,"width":108,"height":60,"color":"6","type":"text","text":"圆台"},
+		{"id":"8d6656e1fbb32278","x":-81,"y":-160,"width":121,"height":60,"color":"5","type":"text","text":"线面关系"},
+		{"id":"ed2afb2776eb7ba5","x":165,"y":-14,"width":88,"height":50,"color":"3","type":"text","text":"球"}
+	],
+	"edges":[
+		{"id":"61ec39c92c0d5531","fromNode":"d94ad45e1cfed377","fromSide":"bottom","toNode":"a1893ac6c5a48cf1","toSide":"top","color":"4"},
+		{"id":"bcfed17ab49807cf","fromNode":"d94ad45e1cfed377","fromSide":"bottom","toNode":"b0b9bdce4e29a83e","toSide":"top","color":"6"},
+		{"id":"c489c6be3a2bbfde","fromNode":"a1893ac6c5a48cf1","fromSide":"bottom","toNode":"ff871a27db2acc67","toSide":"top","color":"4"},
+		{"id":"7951fd68d1a669fb","fromNode":"a1893ac6c5a48cf1","fromSide":"bottom","toNode":"ab669ff433a0a416","toSide":"top","color":"4"},
+		{"id":"1be015b82fe060f0","fromNode":"a1893ac6c5a48cf1","fromSide":"bottom","toNode":"025f2a06a55d433c","toSide":"top","color":"4"},
+		{"id":"79ec5c333348baa2","fromNode":"b0b9bdce4e29a83e","fromSide":"bottom","toNode":"99a09c76a57611d0","toSide":"top","color":"6"},
+		{"id":"021d8cbf10759e09","fromNode":"b0b9bdce4e29a83e","fromSide":"bottom","toNode":"c4d977e0a1d0945a","toSide":"top","color":"6"},
+		{"id":"4540046cf06d187d","fromNode":"b0b9bdce4e29a83e","fromSide":"bottom","toNode":"d4c2e64dc46089d1","toSide":"top","color":"6"},
+		{"id":"09ed0f76e1e9140b","fromNode":"d94ad45e1cfed377","fromSide":"top","toNode":"8d6656e1fbb32278","toSide":"bottom","color":"3"},
+		{"id":"6613c2c5d49b81ad","fromNode":"d94ad45e1cfed377","fromSide":"right","toNode":"ed2afb2776eb7ba5","toSide":"left","color":"3"}
+	]
+}
