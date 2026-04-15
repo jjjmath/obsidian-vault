@@ -1,0 +1,71 @@
+{
+  "summary": {
+    "total_files": 618,
+    "math_files": 407,
+    "other_files": 211,
+    "topics_with_files": {
+      "代数": 291,
+      "几何": 92,
+      "三角函数": 23,
+      "概率统计": 1
+    }
+  },
+  "migration_steps": [
+    {
+      "action": "create_concept_page",
+      "topic": "代数",
+      "files_count": 291,
+      "files": [
+        "关于隐零点问题.md",
+        "查询系统.md",
+        "concepts/三角函数.md",
+        "copilot/copilot-conversations/GLM-4.7_Model_Error@20260414_094732.md",
+        "Projects/AI 时代：高中阶段的核心能力培养.md"
+      ],
+      "description": "为代数创建概念页面，包含291个相关文件"
+    },
+    {
+      "action": "create_concept_page",
+      "topic": "几何",
+      "files_count": 92,
+      "files": [
+        "copilot/copilot-conversations/定义多面体直接写入@20260407_085459.md",
+        "copilot/copilot-conversations/补充多面体定义@20260407_084129.md",
+        "Projects/Excalidraw/三角形的内心.md",
+        "Projects/Excalidraw/三角形的垂心.md",
+        "Projects/Excalidraw/三角形的外心.md"
+      ],
+      "description": "为几何创建概念页面，包含92个相关文件"
+    },
+    {
+      "action": "create_concept_page",
+      "topic": "三角函数",
+      "files_count": 23,
+      "files": [
+        "copilot/copilot-custom-prompts/Explain like I am 5.md",
+        "copilot/copilot-custom-prompts/Generate glossary.md",
+        "copilot/copilot-custom-prompts/Rewrite as tweet.md",
+        "entities/pdf转markdown工具.md",
+        "Projects/Excalidraw/2026010502图.md"
+      ],
+      "description": "为三角函数创建概念页面，包含23个相关文件"
+    },
+    {
+      "action": "create_concept_page",
+      "topic": "概率统计",
+      "files_count": 1,
+      "files": [
+        "Projects/测试题精选/解答区/202601014.md"
+      ],
+      "description": "为概率统计创建概念页面，包含1个相关文件"
+    },
+    {
+      "action": "update_index",
+      "description": "更新index.md，添加所有新概念页面链接"
+    },
+    {
+      "action": "create_cross_links",
+      "description": "在相关概念页面间创建[[wikilinks]]"
+    }
+  ]
+}

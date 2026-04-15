@@ -1,57 +1,102 @@
-# Obsidian Mathematics Notes Repository
+# 高中数学教学知识库
 
-## 📜 License Statement
+> 基于llm-wiki结构的数学教学知识管理系统
 
-All content in this knowledge base, unless otherwise specified, is licensed under the **[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](LICENSE)**.
+## 概述
+这是许宏杰老师（老许）的数学教学知识库，使用llm-wiki结构进行组织。该知识库整合了26年教学经验，包含丰富的教学资源、方法和工具。
 
-### This means you may:
-- ✅ **Share** — copy and redistribute the material in any medium or format
-- ✅ **Adapt** — remix, transform, and build upon the material
+## 快速开始
 
-### Under the following terms:
-1. **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made
-2. **NonCommercial** — **You may not use the material for commercial purposes**
-3. **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the **same license**
+### 1. 了解结构
+```
+/wiki/
+├── SCHEMA.md           # 领域规范和结构规则
+├── index.md            # 内容目录（按类型分类）
+├── log.md              # 操作记录日志
+├── raw/                # 原始资料（不可修改）
+├── entities/           # 实体页面（工具、人物、组织）
+├── concepts/           # 概念页面（数学概念、教学方法）
+├── comparisons/        # 对比分析页面
+└── queries/            # 有价值的查询结果
+```
 
-### In simple terms:
-- 🔓 **You can**: Freely learn from, share, and improve these notes
-- 🚫 **You cannot**: Use for commercial purposes (e.g., publishing books for sale, creating paid courses)
-- 🔄 **Requirements**: Credit the original author when sharing, and keep derivative works under the same license
+### 2. 查看现有内容
+- **现有文件**: 637个Markdown文件，主要是数学教学内容
+- **新wiki页面**: 2个示例页面（更多正在创建中）
+- **分类**: 数学概念、教学方法、考试考点、技术工具
 
-## © Copyright Information
+### 3. 使用llm-wiki功能
+现在这个知识库已经配置为llm-wiki，你可以使用以下功能：
 
-**Copyright Holder**: Xu Hongjie  
-**Contact**: xu_hongjie@sina.com  
-**Repository**: [https://github.com/jjjmath/obsidian-vault](https://github.com/jjjmath/obsidian-vault)
+#### 收录新资料
+```bash
+# 使用llm-wiki技能收录网页、PDF、文章等
+```
 
----
-*For the complete license text, please refer to the [LICENSE](LICENSE) file in the project root directory.*
+#### 查询知识库
+```bash
+# 查询特定主题，如"三角函数"或"导数"
+```
 
-# [Obsidian 数学笔记库]
+#### 整理现有内容
+```bash
+# 自动整理和分类现有文件
+# 创建交叉链接
+# 检查一致性
+```
 
-## 📜 许可证声明
+### 4. 与Obsidian集成
+- 所有文件都是标准Markdown格式
+- `[[wikilinks]]`在Obsidian中可点击
+- YAML frontmatter支持Dataview插件
+- 图片存储在`raw/assets/`目录
 
-本知识库中的所有内容，除非另有说明，均采用 **[知识共享 署名-非商业性使用-相同方式共享 4.0 国际许可证](LICENSE)**。
+## 主要分类
 
-### 这意味着您可以：
-- ✅ **分享** — 以任何媒介或格式复制和重新分发材料
-- ✅ **改编** — 修改、转换或以本材料为基础进行创作
+### 数学教学内容
+- **代数**: 函数、方程、不等式、数列
+- **几何**: 平面几何、立体几何、解析几何
+- **函数**: 导数、积分、极限
+- **概率统计**: 概率、统计、分布
+- **向量**: 向量、矩阵、变换
 
-### 但必须遵守以下条件：
-1. **署名** — 必须给出适当的署名，提供指向本许可证的链接，并说明是否作出了修改
-2. **非商业性使用** — **不得将本材料用于商业目的**
-3. **相同方式共享** — 如果您修改了本材料，则必须以**相同的许可证**分发您的衍生作品
+### 教学维度
+- 教学方法与策略
+- 高考考点分析
+- 教学资源开发
+- 学生能力培养
 
-### 简单来说：
-- 🔓 **可以**：自由学习、分享、改进这些笔记
-- 🚫 **不可以**：用于商业用途（如出版售书、制作付费课程）
-- 🔄 **要求**：分享时注明原作者，且衍生作品保持相同许可
+### 技术工具
+- PDF转Markdown工具
+- Obsidian配置和使用
+- 自动化脚本
+- Git版本控制
 
-## © 版权信息
+## 工作流程
 
-版权持有者：许宏杰  
-联系方式：xu_hongjie@sina.com  
-项目地址：[https://github.com/jjjmath/obsidian-vault](https://github.com/jjjmath/obsidian-vault)
+### 新资料处理
+```
+新资料 → llm-wiki收录 → 分类整理 → 创建链接 → 更新索引
+```
 
----
-*完整许可证文本请参阅项目根目录下的 [LICENSE](LICENSE) 文件*
+### 知识查询
+```
+查询请求 → llm-wiki搜索 → 综合答案 → 记录有价值结果
+```
+
+### 定期维护
+```
+定期检查 → 更新过时内容 → 修复链接 → 归档旧内容
+```
+
+## 作者信息
+- **姓名**: 许宏杰（老许）
+- **职业**: 高中数学教师
+- **教龄**: 26年
+- **专长**: 数学教学、教育技术应用、知识管理
+
+## 开始使用
+1. 阅读[[SCHEMA.md]]了解规范
+2. 查看[[index.md]]了解现有内容
+3. 从[[log.md]]了解最近更新
+4. 尝试查询或收录新资料
