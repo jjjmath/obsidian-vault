@@ -1,0 +1,6 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="829" height="533" viewBox="0 0 829 533">
+  <rect width="829" height="533" fill="white"/>
+  <defs><marker id="arr" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#000"/></marker></defs>
+  <path d="M 40.0,292.0 L 789.0,286.0" stroke="#1e1e1e" stroke-width="2.0" fill="none" marker-end="url(#arr)" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 440.0,493.0 L 440.0,40.0" stroke="#1e1e1e" stroke-width="2.0" fill="none" marker-end="url(#arr)" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

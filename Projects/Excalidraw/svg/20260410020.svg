@@ -1,0 +1,15 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="524.5799865722656" height="444" viewBox="0 0 524.5799865722656 444">
+  <rect width="524.5799865722656" height="444" fill="white"/>
+  <defs><marker id="arr" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#000"/></marker></defs>
+  <path d="M 64.0,368.5 L 461.0,368.5" stroke="#1e1e1e" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 272.0,61.5 L 65.0,366.5" stroke="#1e1e1e" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 275.0,60.5 L 462.0,367.5" stroke="#1e1e1e" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 273.0,62.5 L 273.0,370.5" stroke="#1e1e1e" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 273.0,263.5 L 273.0,263.5" stroke="#1e1e1e" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 68.0,368.5 L 271.0,265.5" stroke="#1e1e1e" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="283.0" y="60.0" font-family="Arial,sans-serif" font-size="20" fill="#1e1e1e" text-anchor="start">S</text>
+  <text x="40.0" y="386.0" font-family="Arial,sans-serif" font-size="20" fill="#1e1e1e" text-anchor="start">A</text>
+  <text x="472.0" y="382.0" font-family="Arial,sans-serif" font-size="20" fill="#1e1e1e" text-anchor="start">C</text>
+  <text x="288.0" y="267.0" font-family="Arial,sans-serif" font-size="20" fill="#1e1e1e" text-anchor="start">O</text>
+  <text x="262.0" y="399.0" font-family="Arial,sans-serif" font-size="20" fill="#1e1e1e" text-anchor="start">O'</text>
+</svg>

@@ -1,0 +1,21 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="777.5" height="398.5" viewBox="0 0 777.5 398.5">
+  <rect width="777.5" height="398.5" fill="white"/>
+  <defs><marker id="arr" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#000"/></marker></defs>
+  <ellipse cx="185.5" cy="213.0" rx="145.5" ry="145.5" fill="none" stroke="#1e1e1e" stroke-width="2.0"/>
+  <path d="M 46.0,256.5 L 325.0,256.5" stroke="#1e1e1e" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 85.0,106.5 L 285.0,105.5" stroke="#1e1e1e" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 184.0,217.5 L 184.0,217.5" stroke="#1e1e1e" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="592.0" cy="185.5" rx="145.5" ry="145.5" fill="none" stroke="#1e1e1e" stroke-width="2.0"/>
+  <path d="M 453.5,143.0 L 732.5,143.0" stroke="#1e1e1e" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 484.5,86.0 L 698.5,86.0" stroke="#1e1e1e" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 590.5,190.0 L 590.5,190.0" stroke="#1e1e1e" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 184.0,217.5 L 284.0,103.5" stroke="#1e1e1e" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 184.0,218.5 L 181.0,105.5" stroke="#e03131" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 184.0,218.5 L 184.0,255.5" stroke="#e03131" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 184.0,217.5 L 325.0,253.5" stroke="#1e1e1e" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 592.0,187.5 L 591.0,84.5" stroke="#1e1e1e" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 591.0,190.5 L 699.0,86.5" stroke="#1e1e1e" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 591.0,190.5 L 736.0,143.5" stroke="#1e1e1e" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 593.0,85.5 L 593.0,142.5" stroke="#e03131" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 183.0,217.5 L 184.0,218.5 L 190.0,219.5 L 200.0,221.5 L 212.0,221.5 L 227.0,221.5 L 242.0,222.5 L 264.0,226.5 L 276.0,228.5 L 283.0,229.5 L 286.0,229.5 L 288.0,229.5 L 289.0,229.5 L 290.0,230.5 L 292.0,232.5 L 294.0,232.5 L 295.0,233.5 L 296.0,234.5 L 298.0,236.5 L 300.0,237.5 L 301.0,238.5 L 302.0,239.5 L 304.0,240.5 L 305.0,241.5 L 307.0,242.5 L 309.0,243.5 L 310.0,244.5 L 312.0,244.5 L 312.0,245.5 L 313.0,245.5 L 313.0,245.5" stroke="#1e1e1e" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

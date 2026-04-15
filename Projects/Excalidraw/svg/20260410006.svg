@@ -1,0 +1,25 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1036.741374302972" height="505.1053408449458" viewBox="0 0 1036.741374302972 505.1053408449458">
+  <rect width="1036.741374302972" height="505.1053408449458" fill="white"/>
+  <defs><marker id="arr" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#000"/></marker></defs>
+  <path d="M 40.0,463.1 L 491.0,465.1" stroke="#1e1e1e" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 266.0,44.1 L 43.0,463.1" stroke="#1e1e1e" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 264.0,45.1 L 490.0,463.1" stroke="#1e1e1e" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 266.0,47.1 L 266.0,464.1" stroke="#1971c2" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 144.3,278.1 L 390.3,274.1" stroke="#1e1e1e" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 266.0,44.1 L 266.0,274.1" stroke="#f08c00" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="215.7" y="304.2" font-family="Arial,sans-serif" font-size="48.80000000000001" fill="#1971c2" text-anchor="start">h</text>
+  <text x="267.8" y="188.0" font-family="Arial,sans-serif" font-size="46.40000000000001" fill="#f08c00" text-anchor="start">h</text>
+  <text x="295.3" y="190.6" font-family="Arial,sans-serif" font-size="20" fill="#f08c00" text-anchor="start">1</text>
+  <text x="295.3" y="216.6" font-family="Arial,sans-serif" font-size="20" fill="#f08c00" text-anchor="start"></text>
+  <path d="M 545.7,459.0 L 996.7,461.0" stroke="#1e1e1e" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 771.7,40.0 L 548.7,459.0" stroke="#1e1e1e" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 769.7,41.0 L 995.7,459.0" stroke="#1e1e1e" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 771.7,43.0 L 771.7,460.0" stroke="#1971c2" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 590.9,386.7 L 956.9,384.7" stroke="#1e1e1e" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 771.7,40.0 L 772.7,385.0" stroke="#e03131" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="725.4" y="365.2" font-family="Arial,sans-serif" font-size="48.80000000000001" fill="#1971c2" text-anchor="start">h</text>
+  <text x="781.0" y="268.6" font-family="Arial,sans-serif" font-size="46.40000000000001" fill="#e03131" text-anchor="start">h</text>
+  <text x="807.3" y="269.5" font-family="Arial,sans-serif" font-size="20" fill="#e03131" text-anchor="start">2</text>
+  <text x="801.0" y="186.5" font-family="Arial,sans-serif" font-size="20" fill="#f08c00" text-anchor="start">1</text>
+  <text x="801.0" y="212.5" font-family="Arial,sans-serif" font-size="20" fill="#f08c00" text-anchor="start"></text>
+</svg>

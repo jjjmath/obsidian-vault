@@ -1,0 +1,15 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1079" height="626" viewBox="0 0 1079 626">
+  <rect width="1079" height="626" fill="white"/>
+  <defs><marker id="arr" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#000"/></marker></defs>
+  <path d="M 40.0,375.0 L 551.0,375.0" stroke="#846358" stroke-width="2.0" fill="none" marker-end="url(#arr)" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 252.0,586.0 L 252.0,40.0" stroke="#846358" stroke-width="2.0" fill="none" marker-end="url(#arr)" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 120.0,375.0 L 381.0,375.0" stroke="#c2255c" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 248.0,177.0 L 118.0,375.0" stroke="#c2255c" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 251.0,176.0 L 382.0,373.0" stroke="#c2255c" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 574.0,375.0 L 1039.0,375.0" stroke="#846358" stroke-width="2.0" fill="none" marker-end="url(#arr)" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 584.0,563.0 L 957.5,189.5" stroke="#846358" stroke-width="2.0" fill="none" marker-end="url(#arr)" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 640.0,375.0 L 902.0,375.0" stroke="#e03131" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 640.0,376.0 L 813.0,332.0" stroke="#e03131" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 816.0,330.0 L 904.0,376.0" stroke="#e03131" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 658.0,373.0 L 885.0,373.0 L 905.0,373.0" stroke="#e03131" stroke-width="2.0" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
