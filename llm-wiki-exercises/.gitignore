@@ -1,0 +1,39 @@
+# llm-wiki-exercises 专用 .gitignore
+
+# 临时文件和缓存
+*.tmp
+*.temp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+migration_log_*.md
+
+# 本地配置
+.env
+.env.local
+config.local.yaml
+
+# IDE和编辑器
+.vscode/
+.idea/
+*.code-workspace
+
+# 系统文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# 大文件
+*.zip
+*.tar.gz
+*.rar
+
+# 备份文件
+*.bak
+*.backup
