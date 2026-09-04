@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"692ebd6916e3bf10","x":-125,"y":-30,"width":250,"height":60,"color":"1","type":"text","text":"空间向量与立体几何"},
+		{"id":"91e1ccb014f41223","x":60,"y":140,"width":250,"height":60,"color":"2","type":"text","text":"空间向量的数量积"},
+		{"id":"cd674588b5f5a42c","x":-191,"y":210,"width":250,"height":60,"color":"2","type":"text","text":"空间向量的基本定理"},
+		{"id":"04c09b4a977e8cbd","x":290,"y":-62,"width":250,"height":60,"color":"5","type":"text","text":"共线与共面"},
+		{"id":"ba4c2c2954aaddec","x":-140,"y":-235,"width":250,"height":60,"color":"6","type":"text","text":"空间向量的应用"},
+		{"id":"a3448aad4ab8e44d","x":-520,"y":150,"width":250,"height":60,"color":"2","type":"text","text":"空间向量的概念"},
+		{"id":"b567c9d2fd1debca","x":-494,"y":-38,"width":250,"height":60,"color":"4","type":"text","text":"方向向量"},
+		{"id":"121c1290055517c8","x":-613,"y":-148,"width":250,"height":60,"color":"4","type":"text","text":"法向量"},
+		{"id":"4f891c4c5d36bbd3","x":-1002,"y":-150,"width":250,"height":60,"color":"4","type":"text","text":"[[空间向量及坐标运算（4）---法向量]]"},
+		{"id":"6539c1789713fa43","x":-940,"y":0,"width":250,"height":60,"color":"4","type":"text","text":"[[空间向量及坐标运算（3）---方向向量]]"},
+		{"id":"943ea6c12e4a378e","x":-292,"y":-459,"width":250,"height":60,"color":"6","type":"text","text":"异面直线所成的角"},
+		{"id":"550600467897e0ad","x":-35,"y":-466,"width":250,"height":60,"color":"6","type":"text","text":"线面角"},
+		{"id":"12477f404b31a683","x":223,"y":-381,"width":250,"height":60,"color":"6","type":"text","text":"二面角"},
+		{"id":"d27bf75434c09e91","x":-616,"y":-453,"width":250,"height":60,"color":"6","type":"text","text":"距离"}
+	],
+	"edges":[
+		{"id":"066f06905f264b36","fromNode":"692ebd6916e3bf10","fromSide":"bottom","toNode":"a3448aad4ab8e44d","toSide":"top"},
+		{"id":"020fa108ccd0045e","fromNode":"692ebd6916e3bf10","fromSide":"bottom","toNode":"91e1ccb014f41223","toSide":"top"},
+		{"id":"8b9b6b26babd6b72","fromNode":"692ebd6916e3bf10","fromSide":"bottom","toNode":"cd674588b5f5a42c","toSide":"top"},
+		{"id":"c42c2b890b1fdfba","fromNode":"692ebd6916e3bf10","fromSide":"right","toNode":"04c09b4a977e8cbd","toSide":"left"},
+		{"id":"a0d71ce3bddc6243","fromNode":"692ebd6916e3bf10","fromSide":"top","toNode":"ba4c2c2954aaddec","toSide":"bottom"},
+		{"id":"3298cd8a15447c53","fromNode":"692ebd6916e3bf10","fromSide":"left","toNode":"b567c9d2fd1debca","toSide":"right"},
+		{"id":"316e364f6f2193c3","fromNode":"b567c9d2fd1debca","fromSide":"left","toNode":"6539c1789713fa43","toSide":"right"},
+		{"id":"ba06d5e68335d600","fromNode":"692ebd6916e3bf10","fromSide":"left","toNode":"121c1290055517c8","toSide":"right"},
+		{"id":"c913d22bbab44811","fromNode":"121c1290055517c8","fromSide":"left","toNode":"4f891c4c5d36bbd3","toSide":"right"},
+		{"id":"9bb8871da0f18fbd","fromNode":"ba4c2c2954aaddec","fromSide":"top","toNode":"943ea6c12e4a378e","toSide":"bottom"},
+		{"id":"d0bd71915f499b41","fromNode":"ba4c2c2954aaddec","fromSide":"top","toNode":"550600467897e0ad","toSide":"bottom"},
+		{"id":"f19478ebc35593c8","fromNode":"ba4c2c2954aaddec","fromSide":"top","toNode":"12477f404b31a683","toSide":"bottom"},
+		{"id":"457e8215e10b561f","fromNode":"ba4c2c2954aaddec","fromSide":"top","toNode":"d27bf75434c09e91","toSide":"bottom"}
+	]
+}
