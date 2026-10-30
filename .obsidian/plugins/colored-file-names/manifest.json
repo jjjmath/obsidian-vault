@@ -1,0 +1,9 @@
+{
+  "id": "colored-file-names",
+  "name": "Colored File Names",
+  "version": "1.2.1",
+  "minAppVersion": "1.13.0",
+  "description": "Color folders and files in the file explorer from the context menu. Manage a color palette and export or import your colors to back them up or move them to another device.",
+  "author": "Philipp Reichelt",
+  "isDesktopOnly": false
+}

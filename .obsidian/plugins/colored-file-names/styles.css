@@ -1,0 +1,106 @@
+/* Colored File Names
+ *
+ * A colored item (.tree-item) gets .cfn-colored and the custom properties
+ * --cfn-color-light, --cfn-color-dark, --cfn-text-light and --cfn-text-dark.
+ * From these, --cfn-color (backgrounds) and --cfn-text-color (names) are
+ * set for the current theme. Items that take the color of a recursively colored folder
+ * additionally get .cfn-inherited, the recursively colored folder itself
+ * gets .cfn-cascade. The file explorer container gets
+ * .cfn-folder-style-<style> and .cfn-file-style-<style>, where <style> is
+ * text, background or both, and .cfn-bold-folders if colored folder names
+ * are shown in bold.
+ */
+
+/* Theme */
+.theme-light .cfn-colored {
+  --cfn-color: var(--cfn-color-light);
+  --cfn-text-color: var(--cfn-text-light);
+}
+
+.theme-dark .cfn-colored {
+  --cfn-color: var(--cfn-color-dark);
+  --cfn-text-color: var(--cfn-text-dark);
+}
+
+/* Text */
+.cfn-folder-style-text .nav-folder.cfn-colored > .tree-item-self,
+.cfn-folder-style-both .nav-folder.cfn-colored > .tree-item-self,
+.cfn-file-style-text .nav-file.cfn-colored > .tree-item-self,
+.cfn-file-style-both .nav-file.cfn-colored > .tree-item-self {
+  color: var(--cfn-text-color);
+}
+
+.cfn-folder-style-text .nav-folder.cfn-colored > .tree-item-self .tree-item-icon,
+.cfn-folder-style-both .nav-folder.cfn-colored > .tree-item-self .tree-item-icon {
+  color: inherit;
+}
+
+/* Bold folder names */
+.cfn-bold-folders .nav-folder.cfn-colored > .tree-item-self {
+  /* Obsidian sets the hover and active weight through these variables with more specific selectors. */
+  --nav-item-weight-hover: var(--font-semibold);
+  --nav-item-weight-active: var(--font-semibold);
+  font-weight: var(--font-semibold);
+}
+
+/* Background */
+.cfn-folder-style-background .nav-folder.cfn-colored > .tree-item-self:not(.is-active),
+.cfn-folder-style-both .nav-folder.cfn-colored > .tree-item-self:not(.is-active),
+.cfn-file-style-background .nav-file.cfn-colored > .tree-item-self:not(.is-active),
+.cfn-file-style-both .nav-file.cfn-colored > .tree-item-self:not(.is-active) {
+  background-color: color-mix(in srgb, var(--cfn-color) var(--cfn-background-opacity, 10%), transparent);
+}
+
+/* Color picker */
+.cfn-suggestion {
+  display: flex;
+  align-items: center;
+  gap: var(--size-4-2);
+}
+
+.cfn-swatch {
+  flex: none;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: var(--cfn-color);
+  border: 1px solid var(--background-modifier-border);
+}
+
+.cfn-swatch-none {
+  background: linear-gradient(
+    to top right,
+    transparent calc(50% - 1px),
+    var(--text-muted) 50%,
+    transparent calc(50% + 1px)
+  );
+}
+
+.cfn-suggestion-name {
+  flex: 1;
+}
+
+.cfn-recursive {
+  display: flex;
+  align-items: center;
+  gap: var(--size-4-2);
+  padding: var(--size-4-2) var(--size-4-3);
+  border-bottom: 1px solid var(--background-modifier-border);
+  font-size: var(--font-ui-small);
+}
+
+.cfn-recursive.is-disabled {
+  color: var(--text-faint);
+}
+
+.cfn-suggestion-current {
+  color: var(--text-muted);
+  font-size: var(--font-ui-smaller);
+}
+
+.cfn-import-input {
+  width: 100%;
+  min-height: 14em;
+  font-family: var(--font-monospace);
+  font-size: var(--font-smaller);
+}
