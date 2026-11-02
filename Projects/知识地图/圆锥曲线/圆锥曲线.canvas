@@ -36,7 +36,7 @@
 		{"id":"b22d79920b44d622","x":-1026,"y":534,"width":250,"height":60,"color":"2","type":"text","text":"[[1.椭圆的定义及标准方程]]"},
 		{"id":"58bf36605ad777ec","x":-1001,"y":678,"width":250,"height":60,"color":"2","type":"text","text":"[[3.椭圆的第三定义]]"},
 		{"id":"4a958065476533a6","x":-1055,"y":827,"width":250,"height":60,"color":"2","type":"text","text":"[[6.动圆圆心的轨迹]]"},
-		{"id":"7e1534e30171be7c","x":-804,"y":857,"width":250,"height":60,"color":"2","type":"text","text":"[[5.椭圆的一种画法]]"},
+		{"id":"7e1534e30171be7c","x":-804,"y":857,"width":250,"height":60,"color":"2","type":"text","text":"[[5.圆内一点和圆上动点连线得中垂线（包含交轨法）]]"},
 		{"id":"bb4dfd79fcdc2d9e","x":-765,"y":738,"width":250,"height":60,"color":"2","type":"text","text":"[[4.椭圆的第二定义]]"}
 	],
 	"edges":[
