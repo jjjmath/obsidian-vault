@@ -330,7 +330,7 @@ more message: Request failed, status 404. {"error":{"code":"InvalidEndpointOrMod
 [^1]: [[4.复数的乘除运算]] 中的符号示例  
 [^2]: [[比较难找的符号]] 的符号库  
 [^3]: [[README]] 的知识库管理规范  
-[^4]: [[球的内接正方体与截面]] 的Excalidraw框架设计  
+[^4]: [[Projects/自主学习课堂目标教学/立体几何初步/球的内接正方体与截面]] 的Excalidraw框架设计  
 [^5]: [[202601295]] 的向量共线性分析  
 [^6]: [[202602121]] 的三角函数化简步骤  
 [^7]: [[20260412001]] 的Excalidraw使用说明  
