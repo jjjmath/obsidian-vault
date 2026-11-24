@@ -1,0 +1,823 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* ==========================================================================
+   Obsidian Theme: Canvas And Cargo
+   Description: Midnight Forest (Light) & Nocturne Ledger (Dark) with Floating Panels
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. LIGHT THEME (Midnight Forest)
+   -------------------------------------------------------------------------- */
+.theme-light,
+body.theme-light {
+    --background-primary: #fff8f1;
+    --background-primary-alt: #fbf2e8;
+    --background-secondary: #f5ede2;
+    --background-secondary-alt: #efe7dd;
+    --background-modifier-border: #ddc0b8;
+    --text-normal: #1e1b15;
+    --text-muted: #56423c;
+    --text-faint: #8a726b;
+    --text-accent: #9d3d1c;
+    --interactive-accent: #9d3d1c;
+    --interactive-accent-hover: #bd5532;
+
+    --font-interface: "Hanken Grotesk", sans-serif;
+    --font-headline: "Hanken Grotesk", sans-serif;
+    --font-body: "Inter", sans-serif;
+    --font-monospace: "JetBrains Mono", monospace;
+
+    --color-surface-container: #f5ede2;
+    --color-tertiary-fixed: #e5e2dc;
+    --color-secondary-fixed: #e1e2ea;
+    --color-on-tertiary-container: #fffcf6;
+    --color-on-surface: #1e1b15;
+    --color-on-primary-fixed: #3a0b00;
+    --color-on-primary-container: #fffbff;
+    --color-on-secondary: #ffffff;
+    --color-on-tertiary-fixed: #1c1c18;
+    --color-surface-container-highest: #e9e1d7;
+    --color-error-container: #ffdad6;
+    --color-surface-variant: #e9e1d7;
+    --color-secondary-container: #dedfe8;
+    --color-inverse-primary: #ffb59e;
+    --color-surface-dim: #e0d9cf;
+    --color-surface-tint: #a0401f;
+    --color-surface: #fff8f1;
+    --color-primary-fixed: #ffdbd0;
+    --color-on-tertiary: #ffffff;
+    --color-secondary-fixed-dim: #c4c6ce;
+    --color-secondary: #5c5e65;
+    --color-error: #ba1a1a;
+    --color-on-secondary-fixed: #191c22;
+    --color-surface-container-high: #efe7dd;
+    --color-surface-container-low: #fbf2e8;
+    --color-primary-fixed-dim: #ffb59e;
+    --color-inverse-on-surface: #f8f0e5;
+    --color-on-error: #ffffff;
+    --color-inverse-surface: #343029;
+    --color-on-surface-variant: #56423c;
+    --color-on-primary: #ffffff;
+    --color-on-error-container: #93000a;
+    --color-tertiary: #5d5c57;
+    --color-tertiary-fixed-dim: #c9c6c1;
+    --color-on-tertiary-fixed-variant: #474743;
+    --color-on-primary-fixed-variant: #802908;
+    --color-outline-variant: #ddc0b8;
+    --color-on-secondary-fixed-variant: #44474d;
+    --color-surface-bright: #fff8f1;
+    --color-surface-container-lowest: #ffffff;
+    --color-primary: #9d3d1c;
+    --color-tertiary-container: #75746f;
+    --color-background: #fff8f1;
+    --color-on-secondary-container: #60626a;
+    --color-primary-container: #bd5532;
+    --color-outline: #8a726b;
+    --color-on-background: #1e1b15;
+}
+
+/* --------------------------------------------------------------------------
+   2. DARK THEME (Nocturne Ledger) - BRIGHTER VIVID BLUE TOKENS
+   -------------------------------------------------------------------------- */
+.theme-dark,
+body.theme-dark {
+    /* Color Palette Tokens */
+    --color-base-00: #10131a;
+    --color-base-10: #0b0e14;
+    --color-base-20: #191c22;
+    --color-base-25: #1d2026;
+    --color-base-30: #272a31;
+    --color-base-35: #32353c;
+    --color-base-40: #414752;
+    --color-base-50: #8b919d;
+    --color-base-60: #c0c7d4;
+    --color-base-70: #e1e2eb;
+    --color-base-100: #ffffff;
+
+    /* Brighter Luminous Electric Blues */
+    --color-accent: #4f9eff;
+    --color-accent-hover: #70b5ff;
+    --color-accent-1: #70b5ff;
+    --color-accent-2: #4f9eff;
+
+    /* Obsidian Core Theme Token Aliases */
+    --background-primary: #10131a;
+    --background-primary-alt: #0b0e14;
+    --background-secondary: #191c22;
+    --background-secondary-alt: #0b0e14;
+    --background-modifier-border: rgba(255, 255, 255, 0.12);
+    --background-modifier-border-hover: rgba(255, 255, 255, 0.25);
+    --background-modifier-border-focus: #4f9eff;
+
+    --background-modifier-form-field: rgba(255, 255, 255, 0.05);
+    --background-modifier-hover: rgba(255, 255, 255, 0.06);
+    --background-modifier-active-hover: rgba(56, 130, 246, 0.25);
+
+    --text-normal: #e1e2eb;
+    --text-muted: #c0c7d4;
+    --text-faint: #8b919d;
+    --text-accent: #70b5ff;
+    --text-accent-hover: #94ccff;
+
+    --interactive-accent: #4f9eff;
+    --interactive-accent-hover: #70b5ff;
+    --interactive-hover: rgba(255, 255, 255, 0.08);
+    --interactive-normal: rgba(255, 255, 255, 0.05);
+
+    --font-text: "Inter", sans-serif;
+    --font-editor: "Inter", sans-serif;
+    --font-interface: "Hanken Grotesk", sans-serif;
+    --font-headline: "Hanken Grotesk", sans-serif;
+    --font-monospace: "JetBrains Mono", monospace;
+
+    --radius-s: 6px;
+    --radius-m: 10px;
+    --radius-l: 14px;
+    --radius-xl: 16px;
+
+    --tab-background-active: #191c22;
+    --tab-text-color-active: #70b5ff;
+    --tab-outline-color: rgba(255, 255, 255, 0.12);
+    --tab-container-background: #0b0e14;
+
+    --nav-item-color: #c0c7d4;
+    --nav-item-color-hover: #ffffff;
+    --nav-item-color-active: #70b5ff;
+    --nav-item-background-hover: rgba(255, 255, 255, 0.06);
+    --nav-item-background-active: rgba(56, 130, 246, 0.22);
+
+    --code-background: rgba(20, 24, 33, 0.85);
+    --code-normal: #c0c7d4;
+    --blockquote-border: #4f9eff;
+    --blockquote-bg: rgba(79, 158, 255, 0.08);
+
+    /* Nocturne Ledger Tokens */
+    --color-on-secondary: #293140;
+    --color-surface-container: #1d2026;
+    --color-secondary: #bfc6da;
+    --color-on-primary-fixed: #001c38;
+    --color-on-secondary-container: #b0b8cc;
+    --color-tertiary-fixed-dim: #c2c7d0;
+    --color-on-surface-variant: #c0c7d4;
+    --color-on-surface: #e1e2eb;
+    --color-surface-dim: #10131a;
+    --color-surface-container-high: #272a31;
+    --color-on-tertiary-fixed: #171c23;
+    --color-tertiary: #c2c7d0;
+    --color-on-primary-container: #003a6b;
+    --color-on-secondary-fixed-variant: #3f4757;
+    --color-primary-fixed-dim: #70b5ff;
+    --color-primary-container: #4f9eff;
+    --color-surface-container-low: #191c22;
+    --color-background: #10131a;
+    --color-error: #ffb4ab;
+    --color-tertiary-container: #9fa3ac;
+    --color-on-primary: #00315c;
+    --color-on-error-container: #ffdad6;
+    --color-secondary-fixed: #dbe2f7;
+    --color-outline: #8b919d;
+    --color-surface-variant: #32353c;
+    --color-on-tertiary: #2c3138;
+    --color-surface-tint: #70b5ff;
+    --color-primary-fixed: #d3e4ff;
+    --color-on-tertiary-container: #353a41;
+    --color-secondary-fixed-dim: #bfc6da;
+    --color-surface-container-lowest: #0b0e14;
+    --color-outline-variant: #414752;
+    --color-on-background: #e1e2eb;
+    --color-surface-container-highest: #32353c;
+    --color-surface-bright: #363940;
+    --color-secondary-container: #414959;
+    --color-surface: #10131a;
+    --color-error-container: #93000a;
+    --color-on-error: #690005;
+    --color-primary: #70b5ff;
+    --color-inverse-surface: #e1e2eb;
+    --color-on-tertiary-fixed-variant: #42474f;
+    --color-on-secondary-fixed: #141c2a;
+    --color-inverse-on-surface: #2e3037;
+    --color-tertiary-fixed: #dee2ec;
+    --color-inverse-primary: #0060aa;
+    --color-on-primary-fixed-variant: #004882;
+}
+
+/* --------------------------------------------------------------------------
+   3. SHARED STYLES
+   -------------------------------------------------------------------------- */
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.material-symbols-outlined.fill {
+    font-variation-settings: 'FILL' 1;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.theme-light ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.theme-light ::-webkit-scrollbar-thumb {
+    background-color: rgba(138, 114, 107, 0.3);
+    border-radius: 8px;
+}
+
+.theme-dark ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.theme-dark ::-webkit-scrollbar-thumb {
+    background: rgba(79, 158, 255, 0.35);
+    border-radius: 9999px;
+}
+
+.theme-dark ::-webkit-scrollbar-thumb:hover {
+    background: rgba(79, 158, 255, 0.6);
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--color-background);
+    color: var(--color-on-surface);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-headline);
+}
+
+code,
+pre,
+.font-mono {
+    font-family: var(--font-monospace);
+}
+
+/* ==========================================================================
+   4. FLOATING PANELS / MODULAR LAYOUT (DARK THEME)
+   ========================================================================== */
+
+/* Outer Workspace Gaps Container with Ambient Glow for Glassmorphism */
+body.theme-dark {
+    background-color: #0b0e14;
+    background-image: radial-gradient(circle at 0% 0%, rgba(79, 158, 255, 0.12) 0%, transparent 50%),
+        radial-gradient(circle at 100% 100%, rgba(112, 181, 255, 0.08) 0%, transparent 50%);
+    background-attachment: fixed;
+}
+
+body.theme-dark .app-container,
+body.theme-dark .horizontal-main-container,
+body.theme-dark .workspace {
+    background-color: transparent;
+}
+
+/* Transform every workspace tab pane into a floating card! */
+body.theme-dark .workspace-tabs {
+    background-color: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(24px) saturate(1.8);
+    -webkit-backdrop-filter: blur(24px) saturate(1.8);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    margin: 8px;
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.55), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    overflow: hidden;
+}
+
+/* Make sidebars transparent containers holding the floating tab cards */
+body.theme-dark .workspace-split.mod-left-split,
+body.theme-dark .workspace-split.mod-right-split {
+    background-color: transparent;
+}
+
+body.theme-dark .workspace-leaf {
+    background-color: transparent;
+    border: none;
+}
+
+body.theme-dark .workspace-leaf-content {
+    background-color: transparent;
+    border: none;
+}
+
+/* Remove default split handles */
+body.theme-dark .workspace-split.mod-vertical>.workspace-leaf-resize-handle,
+body.theme-dark .workspace-split.mod-horizontal>.workspace-leaf-resize-handle {
+    background-color: transparent;
+    border: none;
+}
+
+/* Ribbon Bar */
+body.theme-dark .workspace-ribbon.mod-left {
+    background-color: transparent;
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 8px 4px;
+}
+
+body.theme-dark .side-dock-ribbon-action,
+body.theme-dark .workspace-ribbon-collapse-btn {
+    color: #c0c7d4;
+    border-radius: 8px;
+    margin-bottom: 4px;
+    transition: all 0.2s ease;
+}
+
+body.theme-dark .side-dock-ribbon-action:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    color: #70b5ff;
+}
+
+body.theme-dark .side-dock-ribbon-action.is-active {
+    background-color: rgba(79, 158, 255, 0.2);
+    color: #70b5ff;
+}
+
+/* ==========================================================================
+   5. LEFT SIDEBAR & FILE EXPLORER
+   ========================================================================== */
+
+body.theme-dark .nav-files-container {
+    padding: 8px;
+}
+
+body.theme-dark .tree-item-self,
+body.theme-dark .nav-file-title,
+body.theme-dark .nav-folder-title {
+    border-radius: 10px;
+    padding: 6px 12px;
+    margin: 2px 0;
+    color: #c0c7d4;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    transition: all 0.15s ease;
+}
+
+body.theme-dark .tree-item-self:hover,
+body.theme-dark .nav-file-title:hover,
+body.theme-dark .nav-folder-title:hover {
+    background-color: rgba(255, 255, 255, 0.06);
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.02);
+}
+
+/* Active Selected File in File Explorer */
+body.theme-dark .tree-item-self.is-active,
+body.theme-dark .is-active>.tree-item-self,
+body.theme-dark .nav-file-title.is-active {
+    background: linear-gradient(90deg, rgba(79, 158, 255, 0.18) 0%, transparent 100%);
+    color: #ffffff;
+    border-left: 4px solid #70b5ff;
+    border-radius: 2px;
+    font-weight: 600;
+    box-shadow: none;
+    backdrop-filter: blur(8px);
+}
+
+body.theme-dark .tree-item-icon {
+    color: inherit;
+    opacity: 0.85;
+}
+
+body.theme-dark .tree-item-inner {
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+body.theme-dark .nav-buttons-container {
+    padding: 8px 12px;
+    gap: 6px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+body.theme-dark .nav-action-button {
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #c0c7d4;
+    padding: 4px 8px;
+    transition: all 0.2s ease;
+}
+
+body.theme-dark .nav-action-button:hover {
+    background-color: #4f9eff;
+    color: #001c38;
+}
+
+/* ==========================================================================
+   6. TITLEBAR & TABS NAVIGATION
+   ========================================================================== */
+
+body.theme-dark .workspace-tab-header {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 13px;
+}
+
+body.theme-dark .workspace-tab-header.is-active {
+    color: #70b5ff;
+    font-weight: 600;
+    box-shadow: inset 0 2px 0 0 #70b5ff;
+}
+
+body.theme-dark .workspace-tab-header-inner-close-button {
+    border-radius: 6px;
+    padding: 2px;
+}
+
+body.theme-dark .workspace-tab-header-inner-close-button:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+}
+
+/* ==========================================================================
+   7. RIGHT SIDEBAR & PROPERTIES
+   ========================================================================== */
+
+body.theme-dark .metadata-container {
+    padding: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+body.theme-dark .metadata-property-key {
+    color: #c0c7d4;
+    font-size: 13px;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+body.theme-dark .metadata-property-value {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 3px 10px;
+    color: #e1e2eb;
+    font-size: 13px;
+}
+
+body.theme-dark .backlink-pane .tree-item,
+body.theme-dark .search-result-file-matches {
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 12px;
+    transition: all 0.3s ease;
+}
+
+body.theme-dark .backlink-pane .tree-item:hover,
+body.theme-dark .search-result-file-matches:hover {
+    border-color: rgba(79, 158, 255, 0.3);
+    box-shadow: 0 0 12px rgba(79, 158, 255, 0.08);
+}
+
+body.theme-dark .search-result-file-title,
+body.theme-dark .backlink-pane .tree-item-inner {
+    color: #4f9eff;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* Floating Status Bar */
+body.theme-dark .status-bar {
+    background: rgba(25, 28, 34, 0.8);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 9999px;
+    padding: 6px 16px;
+    margin: 12px 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    color: #c0c7d4;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 12px;
+}
+
+/* ==========================================================================
+   8. MARKDOWN CANVAS & TYPOGRAPHY (LIVE PREVIEW & READING MODE)
+   ========================================================================== */
+
+/* Main Canvas Content Box & Typography */
+body.theme-dark .markdown-source-view.mod-cm6,
+body.theme-dark .markdown-rendered {
+    font-family: "Inter", sans-serif;
+    color: #e1e2eb;
+}
+
+/* Inline Note Title */
+body.theme-dark .inline-title,
+body.theme-dark .markdown-rendered h1:first-child {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #ffffff;
+    margin-top: 12px;
+    margin-bottom: 24px;
+    letter-spacing: -0.02em;
+}
+
+/* Headings */
+body.theme-dark .markdown-rendered h1,
+body.theme-dark .cm-header-1 {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: 36px;
+    margin-bottom: 16px;
+    letter-spacing: -0.01em;
+}
+
+body.theme-dark .markdown-rendered h2,
+body.theme-dark .cm-header-2 {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 32px;
+    margin-bottom: 14px;
+}
+
+body.theme-dark .markdown-rendered h3,
+body.theme-dark .cm-header-3 {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #e1e2eb;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+body.theme-dark .markdown-rendered h4,
+body.theme-dark .cm-header-4,
+body.theme-dark .markdown-rendered h5,
+body.theme-dark .cm-header-5,
+body.theme-dark .markdown-rendered h6,
+body.theme-dark .cm-header-6 {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #c0c7d4;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+/* Paragraphs & Text */
+body.theme-dark .markdown-rendered p {
+    font-family: "Inter", sans-serif;
+    color: #c0c7d4;
+}
+
+/* Blockquotes (Nocturne Ledger Quote Card) */
+body.theme-dark .markdown-rendered blockquote,
+body.theme-dark .HyperMD-quote,
+body.theme-dark .cm-quote {
+    border-left: 4px solid #4f9eff;
+    background: rgba(79, 158, 255, 0.08);
+    backdrop-filter: blur(8px);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 0 12px 12px 0;
+    padding: 16px 20px;
+    margin: 24px 0;
+    font-style: italic;
+    color: #bfc6da;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Code Blocks */
+body.theme-dark .markdown-rendered pre,
+body.theme-dark .HyperMD-codeblock {
+    background: rgba(20, 24, 33, 0.85);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin: 24px 0;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 14px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+    color: #c0c7d4;
+}
+
+/* Inline Code */
+body.theme-dark .markdown-rendered code:not(pre code),
+body.theme-dark .cm-inline-code {
+    background-color: rgba(79, 158, 255, 0.12);
+    color: #70b5ff;
+    border: 1px solid rgba(79, 158, 255, 0.25);
+    border-radius: 6px;
+    padding: 2px 6px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.9em;
+}
+
+/* Hashtags / Tags */
+body.theme-dark .tag,
+body.theme-dark .cm-hashtag {
+    background-color: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(8px);
+    color: #8da4c4;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 4px 12px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    transition: all 0.2s ease;
+}
+
+body.theme-dark .tag:hover,
+body.theme-dark .cm-hashtag:hover {
+    background-color: rgba(79, 158, 255, 0.15);
+    color: #70b5ff;
+    border-color: rgba(79, 158, 255, 0.35);
+}
+
+/* Lists & Bullets */
+body.theme-dark .markdown-rendered ul,
+body.theme-dark .markdown-rendered ol {
+    padding-left: 24px;
+    margin: 14px 0;
+}
+
+body.theme-dark .markdown-rendered li {
+    margin-bottom: 8px;
+    line-height: 1.7;
+}
+
+body.theme-dark .markdown-rendered ul>li::marker {
+    color: #4f9eff;
+}
+
+body.theme-dark .markdown-rendered ol>li::marker {
+    color: #4f9eff;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 500;
+}
+
+/* Internal Note Links ([[Link]]) */
+body.theme-dark .markdown-rendered a.internal-link,
+body.theme-dark .cm-hmd-internal-link {
+    color: #70b5ff;
+    background: rgba(79, 158, 255, 0.12);
+    padding: 2px 8px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+body.theme-dark .markdown-rendered a.internal-link:hover,
+body.theme-dark .cm-hmd-internal-link:hover {
+    background: rgba(79, 158, 255, 0.25);
+    color: #ffffff;
+}
+
+/* Callout Box Component */
+body.theme-dark .callout {
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 16px;
+    margin: 20px 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* ==========================================================================
+   8. LIGHT THEME OVERRIDES
+   ========================================================================== */
+
+/* 1. Floating Panels & Glassmorphism (Light Theme) */
+body.theme-light {
+    background-color: #fff8f1;
+    background-image: radial-gradient(circle at 0% 0%, rgba(255, 219, 208, 0.5) 0%, transparent 50%),
+        radial-gradient(circle at 100% 100%, rgba(255, 181, 158, 0.4) 0%, transparent 50%);
+    background-attachment: fixed;
+}
+
+body.theme-light .app-container,
+body.theme-light .horizontal-main-container,
+body.theme-light .workspace {
+    background-color: transparent;
+}
+
+body.theme-light .workspace-tabs {
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(24px) saturate(1.8);
+    -webkit-backdrop-filter: blur(24px) saturate(1.8);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    margin: 8px;
+    box-shadow: 0 12px 36px rgba(157, 61, 28, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+    overflow: hidden;
+}
+
+body.theme-light .workspace-split.mod-left-split,
+body.theme-light .workspace-split.mod-right-split {
+    background-color: transparent;
+}
+
+body.theme-light .workspace-leaf,
+body.theme-light .workspace-leaf-content {
+    background-color: transparent;
+    border: none;
+}
+
+body.theme-light .workspace-split.mod-vertical>.workspace-leaf-resize-handle,
+body.theme-light .workspace-split.mod-horizontal>.workspace-leaf-resize-handle {
+    background-color: transparent;
+    border: none;
+}
+
+body.theme-light .workspace-ribbon.mod-left {
+    background-color: transparent;
+    border-right: 1px solid rgba(157, 61, 28, 0.1);
+    padding: 8px 4px;
+}
+
+/* 2. Button & Sidebar Styling */
+body.theme-light button.mod-cta {
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+    border-radius: 9999px;
+    font-weight: 600;
+    border: none;
+}
+
+body.theme-light .nav-action-button {
+    background-color: transparent;
+    color: var(--color-on-surface-variant);
+    border-radius: 6px;
+    transition: background-color 0.15s ease;
+}
+
+body.theme-light .nav-action-button:hover {
+    background-color: rgba(157, 61, 28, 0.08);
+    /* subtle primary tint on hover */
+    color: var(--color-primary);
+}
+
+body.theme-light .tree-item-self.is-active,
+body.theme-light .nav-file-title.is-active,
+body.theme-light .nav-folder-title.is-active {
+    background-color: var(--color-primary-fixed);
+    color: var(--color-on-primary-fixed);
+    border-radius: 9999px;
+    font-weight: 600;
+    border: none;
+    box-shadow: none;
+}
+
+/* 3. Blockquote Overrides */
+body.theme-light .markdown-rendered blockquote,
+body.theme-light .HyperMD-quote,
+body.theme-light .cm-quote {
+    border: 1px solid var(--color-outline);
+    background-color: rgba(157, 61, 28, 0.05);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin: 24px 0;
+    font-style: italic;
+    color: var(--color-on-surface-variant);
+}
+
+/* 4. Tab Headers */
+body.theme-light .workspace-tab-header.is-active {
+    color: var(--color-primary);
+    font-weight: 600;
+    box-shadow: inset 0 2px 0 0 var(--color-primary);
+}
+
+/* 5. Properties Panel & Linked Mentions */
+body.theme-light .metadata-property-value,
+body.theme-light .multi-select-pill,
+body.theme-light .tag,
+body.theme-light .cm-hashtag {
+    background-color: var(--color-surface-container-high);
+    color: var(--color-on-surface-variant);
+    border-radius: 9999px;
+    border: none;
+}
+
+body.theme-light .tag,
+body.theme-light .cm-hashtag,
+body.theme-light .multi-select-pill {
+    padding: 4px 12px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
